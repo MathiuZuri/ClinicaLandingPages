@@ -1,0 +1,62 @@
+﻿@using MudBlazor
+
+<MudGrid Class="mt-8 mb-8">
+    
+    <MudItem xs="12" md="6">
+        <MudText Typo="Typo.h5" Color="Color.Primary" Class="mb-6">
+            <MudIcon Icon="@Icons.Material.Filled.VolunteerActivism" Class="mr-2" />
+            Compromiso Social
+        </MudText>
+        
+        <MudPaper Elevation="2" Class="pa-6 rounded-lg" Style="background-color: var(--mud-palette-background-grey);">
+            <MudText Typo="Typo.body1" Class="mb-4">
+                Entendemos que la salud es un derecho. Por ello, mantenemos un programa activo de responsabilidad social enfocado en las poblaciones más vulnerables.
+            </MudText>
+            
+            <MudList T="string" Dense="true">
+                <MudListItem Icon="@Icons.Material.Filled.CheckCircle" IconColor="Color.Secondary">
+                    Campañas de despistaje gratuito (Diabetes e Hipertensión).
+                </MudListItem>
+                <MudListItem Icon="@Icons.Material.Filled.CheckCircle" IconColor="Color.Secondary">
+                    Charlas preventivas en colegios locales de Juliaca.
+                </MudListItem>
+                <MudListItem Icon="@Icons.Material.Filled.CheckCircle" IconColor="Color.Secondary">
+                    Descuentos especiales en fechas patrias y día de la madre.
+                </MudListItem>
+            </MudList>
+
+            <MudButton Variant="Variant.Text" Color="Color.Primary" Class="mt-4" EndIcon="@Icons.Material.Filled.ArrowForward">
+                Ver próximas campañas
+            </MudButton>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="6">
+        <MudText Typo="Typo.h5" Color="Color.Primary" Class="mb-6">
+            <MudIcon Icon="@Icons.Material.Filled.CameraAlt" Class="mr-2" />
+            Nuestras Instalaciones
+        </MudText>
+
+        <MudCarousel TData="object" Class="mud-width-full rounded-lg" Style="height: 300px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true">
+            <MudCarouselItem Transition="Transition.Fade">
+                <div class="d-flex" style="height:100%; background-color: #e0e0e0; align-items: center; justify-content: center;">
+                    <MudIcon Icon="@Icons.Material.Filled.MeetingRoom" Style="font-size: 4rem; color: #9e9e9e;" />
+                    <MudText Typo="Typo.h6" Class="ml-4" Style="color: #757575;">Recepción Moderna</MudText>
+                </div>
+            </MudCarouselItem>
+            <MudCarouselItem Transition="Transition.Fade">
+                <div class="d-flex" style="height:100%; background-color: #eeeeee; align-items: center; justify-content: center;">
+                    <MudIcon Icon="@Icons.Material.Filled.Science" Style="font-size: 4rem; color: #9e9e9e;" />
+                    <MudText Typo="Typo.h6" Class="ml-4" Style="color: #757575;">Laboratorio Equipado</MudText>
+                </div>
+            </MudCarouselItem>
+            <MudCarouselItem Transition="Transition.Fade">
+                <div class="d-flex" style="height:100%; background-color: #e0e0e0; align-items: center; justify-content: center;">
+                    <MudIcon Icon="@Icons.Material.Filled.Hotel" Style="font-size: 4rem; color: #9e9e9e;" />
+                    <MudText Typo="Typo.h6" Class="ml-4" Style="color: #757575;">Habitaciones Cómodas</MudText>
+                </div>
+            </MudCarouselItem>
+        </MudCarousel>
+    </MudItem>
+
+</MudGrid>

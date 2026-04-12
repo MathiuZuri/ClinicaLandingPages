@@ -1,0 +1,55 @@
+﻿@page "/"
+
+<PageTitle>Inicio - Clínica</PageTitle>
+
+<MudPaper Elevation="0" Class="pa-16 mb-8 text-center rounded-lg" Style="background-color: var(--mud-palette-background);">
+    <MudIcon Icon="@Icons.Material.Filled.LocalHospital" Color="Color.Primary" Style="font-size: 5rem;" Class="mb-4" />
+    <MudText Typo="Typo.h2" Color="Color.Primary" Class="mb-4 fw-bold">
+        Tu Salud, Nuestra Prioridad
+    </MudText>
+    <MudText Typo="Typo.h5" Class="mb-8 text-muted">
+        Cuidando de ti y de tu familia con tecnología de punta y calor humano.
+    </MudText>
+    
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Class="mr-4" EndIcon="@Icons.Material.Filled.CalendarMonth">
+        Agendar Cita
+    </MudButton>
+    <MudButton Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Large" Href="#servicios" EndIcon="@Icons.Material.Filled.Info">
+        Nuestros Servicios
+    </MudButton>
+</MudPaper>
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mb-12">
+    
+    <section id="identidad" class="mb-16" style="scroll-margin-top: 90px;">
+        <MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Dark" Class="mb-8">Conócenos</MudText>
+        <MisionVision />
+        <ValoresFilosofia />
+        <ImpactoEImagen />
+    </section>
+
+    <MudDivider Class="my-12" />
+
+    <section id="negocio" class="mb-16" style="scroll-margin-top: 90px;">
+        <ModeloCanvas />
+    </section>
+    
+    <MudDivider Class="my-12" />
+
+    <section id="organizacion" class="mb-16" style="scroll-margin-top: 90px;">
+        <EstructuraOrg />
+    </section>
+
+    <MudDivider Class="my-12" />
+
+    <section id="servicios" class="mb-16" style="scroll-margin-top: 90px;">
+        <ServiciosTecnologia />
+    </section>
+
+    <MudDivider Class="my-12" />
+
+    <ContactoUbicacion />
+
+</MudContainer>
+
+<MainFooter />

@@ -1,0 +1,30 @@
+﻿<footer class="mt-16 py-8" style="background-color: var(--mud-palette-surface); border-top: 1px solid var(--mud-palette-divider);">
+    <MudContainer MaxWidth="MaxWidth.Large">
+        <MudGrid>
+            <MudItem xs="12" md="4">
+                <MudText Typo="Typo.h6" Color="Color.Primary">Clínica</MudText>
+                <MudText Typo="Typo.body2" Class="mt-2">
+                    Comprometidos con la salud y el bienestar de la comunidad de Juliaca, utilizando tecnología de vanguardia y atención humana.
+                </MudText>
+            </MudItem>
+            <MudItem xs="12" md="4">
+                <MudText Typo="Typo.h6" Class="mb-2">Enlaces Rápidos</MudText>
+                <MudLink Href="#identidad" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-1">Identidad</MudLink>
+                <MudLink Href="#negocio" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-1">Negocio</MudLink>
+                <MudLink Href="#servicios" Color="Color.Inherit" Underline="Underline.None" Class="d-block">Servicios</MudLink>
+            </MudItem>
+            <MudItem xs="12" md="4">
+                <MudText Typo="Typo.h6" Class="mb-2">Redes Sociales</MudText>
+                <div class="d-flex gap-4">
+                    <MudIconButton Icon="@Icons.Custom.Brands.Facebook" Color="Color.Primary" />
+                    <MudIconButton Icon="@Icons.Custom.Brands.Instagram" Color="Color.Primary" />
+                    <MudIconButton Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Primary" />
+                </div>
+            </MudItem>
+        </MudGrid>
+        <MudDivider Class="my-6" />
+        <MudText Typo="Typo.body2" Align="Align.Center" Color="Color.Secondary">
+            &copy; @DateTime.Now.Year Clínica - Todos los derechos reservados.
+        </MudText>
+    </MudContainer>
+</footer>

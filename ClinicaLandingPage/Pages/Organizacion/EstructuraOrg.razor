@@ -1,0 +1,74 @@
+﻿
+<MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">Estructura Organizacional</MudText>
+
+<MudGrid>
+    <MudItem xs="12" md="5">
+        <MudPaper Elevation="4" Class="pa-4">
+            <MudText Typo="Typo.h6" Class="mb-4">Organigrama Institucional</MudText>
+            <MudTreeView T="string">
+                <MudTreeViewItem Value="@("Dirección General")">
+                    <MudTreeViewItem Value="@("Área Médica")">
+                        <MudTreeViewItem Value="@("Especialidades")" />
+                        <MudTreeViewItem Value="@("Enfermería")" />
+                    </MudTreeViewItem>
+                    <MudTreeViewItem Value="@("Área Administrativa")">
+                        <MudTreeViewItem Value="@("Recursos Humanos")" />
+                        <MudTreeViewItem Value="@("Finanzas")" />
+                    </MudTreeViewItem>
+                </MudTreeViewItem>
+            </MudTreeView>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="7">
+        <MudExpansionPanels MultiExpansion="true">
+            <MudExpansionPanel Text="Área Médica">
+                Contamos con tecnología de última generación para diagnósticos precisos y tratamientos efectivos. 
+                Incluye las unidades de cuidados intensivos, quirófanos y consulta externa.
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="Área Administrativa">
+                Encargada de la gestión de citas, atención al cliente y soporte logístico para el funcionamiento óptimo.
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+    </MudItem>
+
+    <MudItem xs="12">
+        <MudText Typo="Typo.h5" Class="mt-8 mb-4">Nuestro Personal Clave</MudText>
+        <MudGrid>
+            @foreach (var persona in _staff)
+            {
+                <MudItem xs="12" sm="6" md="4">
+                    <MudCard Elevation="2">
+                        <MudCardHeader>
+                            <CardHeaderAvatar>
+                                <MudAvatar Color="Color.Secondary">@persona.Nombre[0]</MudAvatar>
+                            </CardHeaderAvatar>
+                            <CardHeaderContent>
+                                <MudText Typo="Typo.body1">@persona.Nombre</MudText>
+                                <MudText Typo="Typo.body2">@persona.Cargo</MudText>
+                            </CardHeaderContent>
+                        </MudCardHeader>
+                        <MudCardContent>
+                            <MudText Typo="Typo.body2">@persona.Descripcion</MudText>
+                        </MudCardContent>
+                    </MudCard>
+                </MudItem>
+            }
+        </MudGrid>
+    </MudItem>
+</MudGrid>
+
+@code {
+    // Modelo simple para el staff (puntos 18 y 23)
+    private List<StaffMember> _staff = new()
+    {
+        new StaffMember { Nombre = "Dr. Roberto Gómez", Cargo = "Director Médico", Descripcion = "Especialista en gestión hospitalaria con 20 años de experiencia." },
+        new StaffMember { Nombre = "Lic. Ana Martínez", Cargo = "Jefe de Enfermería", Descripcion = "Líder en protocolos de atención al paciente y bioseguridad." }
+    };
+
+    public class StaffMember {
+        public string Nombre { get; set; }
+        public string Cargo { get; set; }
+        public string Descripcion { get; set; }
+    }
+}
