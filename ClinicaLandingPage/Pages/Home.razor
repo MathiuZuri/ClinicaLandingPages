@@ -1,55 +1,78 @@
 ﻿@page "/"
 
-<PageTitle>Inicio - Clínica</PageTitle>
+<PageTitle>Inicio - Clínica Santa Mónica</PageTitle>
 
-<MudPaper Elevation="0" Class="pa-16 mb-8 text-center rounded-lg" Style="background-color: var(--mud-palette-background);">
-    <MudIcon Icon="@Icons.Material.Filled.LocalHospital" Color="Color.Primary" Style="font-size: 5rem;" Class="mb-4" />
-    <MudText Typo="Typo.h2" Color="Color.Primary" Class="mb-4 fw-bold">
-        Tu Salud, Nuestra Prioridad
-    </MudText>
-    <MudText Typo="Typo.h5" Class="mb-8 text-muted">
-        Cuidando de ti y de tu familia con tecnología de punta y calor humano.
-    </MudText>
+@* --- HERO SECTION --- *@
+<MudPaper Elevation="0" Class="relative d-flex align-center justify-center overflow-hidden" 
+          Style="height: 550px; width: 100%; border-radius: 0; position: relative; background-color: #000;">
     
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Class="mr-4" EndIcon="@Icons.Material.Filled.CalendarMonth">
-        Agendar Cita
-    </MudButton>
-    <MudButton Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Large" Href="#servicios" EndIcon="@Icons.Material.Filled.Info">
-        Nuestros Servicios
-    </MudButton>
+
+    <MudImage Src="/images/banner.jpg" 
+              Alt="Clínica Santa Mónica" 
+              ObjectFit="ObjectFit.Cover" 
+              Class="absolute w-full h-full" 
+              Style="z-index: 1; filter: brightness(0.4); object-position: center 25%;" />
+
+    @* Contenido Textual: Forzamos color blanco directo para evitar cambios por el tema del sistema *@
+    <MudContainer MaxWidth="MaxWidth.Large" Class="relative" Style="z-index: 2;">
+        <MudStack Spacing="4" AlignItems="AlignItems.Center">
+            
+            <MudIcon Icon="@Icons.Material.Filled.HealthAndSafety" Style="font-size: 3.5rem; color: white;" />
+            
+            <MudText Typo="Typo.h2" Class="fw-bold text-center" 
+                     Style="color: white !important; text-shadow: 2px 2px 15px rgba(0,0,0,0.9); line-height: 1.1;">
+                Salud Materna con Precisión Digital
+            </MudText>
+            
+            <MudText Typo="Typo.h5" Class="text-center mb-4" 
+                     Style="color: white !important; max-width: 850px; text-shadow: 1px 1px 8px rgba(0,0,0,0.9); font-weight: 300;">
+                Cuidamos lo que más amas con la calidez de Juliaca y el respaldo tecnológico de nuestro sistema <strong>SIGEC</strong>.
+            </MudText>
+            
+            <MudStack Row="true" Spacing="4" Class="mt-2">
+                <MudButton Variant="Variant.Filled" 
+                           Color="Color.Primary" 
+                           Size="Size.Large" 
+                           Class="rounded-pill px-8 py-3" 
+                           EndIcon="@Icons.Material.Filled.CalendarMonth"
+                           Style="font-weight: 700;">
+                    Agendar Cita
+                </MudButton>
+                
+                @* Botón Outlined forzado a blanco *@
+                <MudButton Variant="Variant.Outlined" 
+                           Size="Size.Large" 
+                           Class="rounded-pill px-8 py-3" 
+                           Href="#servicios" 
+                           Style="color: white !important; border-color: white !important; font-weight: 500;"
+                           EndIcon="@Icons.Material.Filled.ArrowDownward">
+                    Ver Servicios
+                </MudButton>
+            </MudStack>
+        </MudStack>
+    </MudContainer>
 </MudPaper>
 
-<MudContainer MaxWidth="MaxWidth.Large" Class="mb-12">
-    
+@* --- RESTO DEL CONTENIDO (Se mantiene igual) --- *@
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-12 mb-12">
     <section id="identidad" class="mb-16" style="scroll-margin-top: 90px;">
-        <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-8">Conócenos</MudText>
+        <MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-8 fw-bold">Conócenos</MudText>
         <MisionVision />
         <ValoresFilosofia />
         <ImpactoEImagen />
     </section>
 
     <MudDivider Class="my-12" />
-
-    <section id="negocio" class="mb-16" style="scroll-margin-top: 90px;">
-        <ModeloCanvas />
-    </section>
+    <section id="negocio" class="mb-16" style="scroll-margin-top: 90px;"><ModeloCanvas /></section>
     
     <MudDivider Class="my-12" />
-
-    <section id="organizacion" class="mb-16" style="scroll-margin-top: 90px;">
-        <EstructuraOrg />
-    </section>
+    <section id="organizacion" class="mb-16" style="scroll-margin-top: 90px;"><EstructuraOrg /></section>
 
     <MudDivider Class="my-12" />
-
-    <section id="servicios" class="mb-16" style="scroll-margin-top: 90px;">
-        <ServiciosTecnologia />
-    </section>
+    <section id="servicios" class="mb-16" style="scroll-margin-top: 90px;"><ServiciosTecnologia /></section>
 
     <MudDivider Class="my-12" />
-
     <ContactoUbicacion />
-
 </MudContainer>
 
 <MainFooter />

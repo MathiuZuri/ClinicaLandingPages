@@ -21,6 +21,42 @@
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi1.jpg",
+      "PackagePath": "staticwebassets\\images\\publi1.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi2.jpg",
+      "PackagePath": "staticwebassets\\images\\publi2.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi3.jpg",
+      "PackagePath": "staticwebassets\\images\\publi3.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi4.jpg",
+      "PackagePath": "staticwebassets\\images\\publi4.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi5.jpg",
+      "PackagePath": "staticwebassets\\images\\publi5.jpg"
+    },
+    {
+      "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi6.jpg",
+      "PackagePath": "staticwebassets\\images\\publi6.jpg"
+    },
+    {
       "Id": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

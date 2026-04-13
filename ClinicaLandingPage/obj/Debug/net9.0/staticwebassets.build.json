@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aqqtrey4b/fqc1jJIGpIt6CzCWY3B4sv2uRcALoLe1M=",
+  "Hash": "i9pwxluXV5yWVP+GB86h+yzdS2jh4z0l6mC/QHzkQ60=",
   "Source": "ClinicaLandingPage",
   "BasePath": "/",
   "Mode": "Root",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "z5bstnt2ik",
-      "Integrity": "eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs=",
+      "Fingerprint": "80lxp0mco3",
+      "Integrity": "aP5cIygKwEipIjJMb0RvGlLOI0OhYHA9gmWYuGCCPB8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "jrnqsv02kj",
-      "Integrity": "z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=",
+      "Fingerprint": "bo7x2hw598",
+      "Integrity": "GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\ClinicaLandingPage.pdb"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ri3kvnpcfx",
-      "Integrity": "Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=",
+      "Fingerprint": "pf4jakntbj",
+      "Integrity": "y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\webcil\\ClinicaLandingPage.wasm"
@@ -4511,7 +4511,7 @@
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Console.wasm"
     },
     {
-      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\0okuc174vk-iz8vjkt507.gz",
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\0okuc174vk-tla4x8po35.gz",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Computed",
       "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\",
@@ -4525,8 +4525,8 @@
       "RelatedAsset": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\service-worker\\service-worker-assets.js.build",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "noiy1wluwf",
-      "Integrity": "6Xulqld6H5qKoHmU4uSnsyOICKSzXbd45mWF64LPKfQ=",
+      "Fingerprint": "4ff7ukqqdr",
+      "Integrity": "0Bc+1qdI6142I5RWB5AcyEA7qnM5rhx3LWgA1LKA7WA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\service-worker\\service-worker-assets.js.build"
@@ -4868,12 +4868,12 @@
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
-      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-jrnqsv02kj.gz",
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-bo7x2hw598.gz",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Computed",
       "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/ClinicaLandingPage#[.{fingerprint=jrnqsv02kj}]!.pdb.gz",
+      "RelativePath": "_framework/ClinicaLandingPage#[.{fingerprint=bo7x2hw598}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4882,8 +4882,8 @@
       "RelatedAsset": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ClinicaLandingPage.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jy07i36rvp",
-      "Integrity": "m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk=",
+      "Fingerprint": "546in1xlqq",
+      "Integrity": "i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ClinicaLandingPage.pdb"
@@ -7577,7 +7577,7 @@
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.Pipes.wasm"
     },
     {
-      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\ku8ep22rmp-z5bstnt2ik.gz",
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\ku8ep22rmp-80lxp0mco3.gz",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Computed",
       "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\",
@@ -7591,8 +7591,8 @@
       "RelatedAsset": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cjdizb6gc7",
-      "Integrity": "CISZHHT/eURe6fXwfZvb26+C6CK1LfQQqJQbxFSofJ0=",
+      "Fingerprint": "61a8echxfg",
+      "Integrity": "Nk0eFNYlc+qrR8GE+vlme6b4wKpf+Ki858aCQVhqqbs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7661,12 +7661,12 @@
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Threading.Tasks.wasm"
     },
     {
-      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-qy6e726866.gz",
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-iubcec5v7j.gz",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=qy6e726866}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=iubcec5v7j}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7675,8 +7675,8 @@
       "RelatedAsset": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9emgrllhml",
-      "Integrity": "YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk=",
+      "Fingerprint": "izdao27phe",
+      "Integrity": "soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\index.html"
@@ -8039,7 +8039,7 @@
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.wasm"
     },
     {
-      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\n5sdb354n6-466kclszy8.gz",
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\n5sdb354n6-njz0018ke4.gz",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Computed",
       "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\",
@@ -9761,12 +9761,12 @@
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-ri3kvnpcfx.gz",
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-pf4jakntbj.gz",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Computed",
       "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/ClinicaLandingPage#[.{fingerprint=ri3kvnpcfx}]!.wasm.gz",
+      "RelativePath": "_framework/ClinicaLandingPage#[.{fingerprint=pf4jakntbj}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9775,8 +9775,8 @@
       "RelatedAsset": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ClinicaLandingPage.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9nddwra13w",
-      "Integrity": "qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw=",
+      "Fingerprint": "oh83kqd9ia",
+      "Integrity": "vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ClinicaLandingPage.wasm"
@@ -9880,8 +9880,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "iz8vjkt507",
-      "Integrity": "wu2lStHRNNK4bS20N+JYTbySh8/06nYONeFF73g5rrc=",
+      "Fingerprint": "tla4x8po35",
+      "Integrity": "sX+rLijn4uRVC/2JNd2oEQikYs/mTZ2fngTzlcz9OZs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\service-worker\\service-worker-assets.js.build"
@@ -9901,8 +9901,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "466kclszy8",
-      "Integrity": "xCOECOpNhdekDEllgvtxmB77RIutVnNkhKxcg2DaP9s=",
+      "Fingerprint": "njz0018ke4",
+      "Integrity": "89e+RSkQPZ4g10P3r5Kw2q3D+3w8bWhhXVIW8600DHw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\service-worker.js"
@@ -9992,6 +9992,195 @@
       "OriginalItemSpec": "wwwroot\\icon-512.png"
     },
     {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\banner.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/banner#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6emwj7lh9l",
+      "Integrity": "XjhUNdqhb2U3cTfCtkY7Tc6DpWNXhwEYkMQU9/suZ0E=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/logo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqtidas97k",
+      "Integrity": "BPzRYCozND18i6UR51exQktvE9/ptMuX3lCw1fteXwk=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.png",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "or5jzlgec7",
+      "Integrity": "DGVBb6TJDwK2F3OQfXG6/UM3qcfe2fLuyMrzLFfkzQc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi1.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/publi1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3n4xfq0a8j",
+      "Integrity": "QdOgXlX8hPexO9z93GlMeZ4qC28CVf76rm8UqAHmdq4=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\publi1.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi2.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/publi2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "588xtoyd0u",
+      "Integrity": "5aRP8aP1SBtsmANaQWZf+G5ftu24/RrV1YyvaZaQ69s=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\publi2.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi3.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/publi3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3x44xngwf8",
+      "Integrity": "GZFC24mOmMWvXG6WcABYkNapobZ/9hE8/okKSZLUE+s=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\publi3.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi4.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/publi4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yvmb3qdekx",
+      "Integrity": "YtziO5s8rNn7nvS8ItTcM1CSv5zBLaU59wx0VbMDGBU=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\publi4.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi5.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/publi5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8nm1n2z02z",
+      "Integrity": "HOiehAD7zbKugJui/eoqGgoAuNyjEZsILiihoAoF44c=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\publi5.jpg"
+    },
+    {
+      "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi6.jpg",
+      "SourceId": "ClinicaLandingPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/publi6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "axosd7f8y6",
+      "Integrity": "0vnVlKItP2a/cFOyQpzUjA8WES0g1UlqcKyoKvlkynU=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\publi6.jpg"
+    },
+    {
       "Identity": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\index.html",
       "SourceId": "ClinicaLandingPage",
       "SourceType": "Discovered",
@@ -10006,8 +10195,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qy6e726866",
-      "Integrity": "PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=",
+      "Fingerprint": "iubcec5v7j",
+      "Integrity": "BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -11500,11 +11689,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs=\""
+          "Value": "\"aP5cIygKwEipIjJMb0RvGlLOI0OhYHA9gmWYuGCCPB8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11514,18 +11703,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs="
+          "Value": "sha256-aP5cIygKwEipIjJMb0RvGlLOI0OhYHA9gmWYuGCCPB8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\ku8ep22rmp-z5bstnt2ik.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\ku8ep22rmp-80lxp0mco3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080032013"
+          "Quality": "0.000080038418"
         }
       ],
       "ResponseHeaders": [
@@ -11535,15 +11724,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12494"
+          "Value": "12493"
         },
         {
           "Name": "ETag",
-          "Value": "\"CISZHHT/eURe6fXwfZvb26+C6CK1LfQQqJQbxFSofJ0=\""
+          "Value": "\"Nk0eFNYlc+qrR8GE+vlme6b4wKpf+Ki858aCQVhqqbs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:41:10 GMT"
+          "Value": "Mon, 13 Apr 2026 04:52:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11563,19 +11752,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs=\""
+          "Value": "W/\"aP5cIygKwEipIjJMb0RvGlLOI0OhYHA9gmWYuGCCPB8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs="
+          "Value": "sha256-aP5cIygKwEipIjJMb0RvGlLOI0OhYHA9gmWYuGCCPB8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\ku8ep22rmp-z5bstnt2ik.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\ku8ep22rmp-80lxp0mco3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11584,7 +11773,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12494"
+          "Value": "12493"
         },
         {
           "Name": "Content-Type",
@@ -11592,11 +11781,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CISZHHT/eURe6fXwfZvb26+C6CK1LfQQqJQbxFSofJ0=\""
+          "Value": "\"Nk0eFNYlc+qrR8GE+vlme6b4wKpf+Ki858aCQVhqqbs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:41:10 GMT"
+          "Value": "Mon, 13 Apr 2026 04:52:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11614,7 +11803,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CISZHHT/eURe6fXwfZvb26+C6CK1LfQQqJQbxFSofJ0="
+          "Value": "sha256-Nk0eFNYlc+qrR8GE+vlme6b4wKpf+Ki858aCQVhqqbs="
         }
       ]
     },
@@ -11756,7 +11945,7 @@
       ]
     },
     {
-      "Route": "_framework/ClinicaLandingPage.jrnqsv02kj.pdb",
+      "Route": "_framework/ClinicaLandingPage.bo7x2hw598.pdb",
       "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ClinicaLandingPage.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11766,7 +11955,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64120"
+          "Value": "65320"
         },
         {
           "Name": "Content-Type",
@@ -11774,11 +11963,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=\""
+          "Value": "\"GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:13 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11788,7 +11977,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrnqsv02kj"
+          "Value": "bo7x2hw598"
         },
         {
           "Name": "label",
@@ -11796,18 +11985,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk="
+          "Value": "sha256-GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8="
         }
       ]
     },
     {
-      "Route": "_framework/ClinicaLandingPage.jrnqsv02kj.pdb",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-jrnqsv02kj.gz",
+      "Route": "_framework/ClinicaLandingPage.bo7x2hw598.pdb",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-bo7x2hw598.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000017921789"
+          "Quality": "0.000017566974"
         }
       ],
       "ResponseHeaders": [
@@ -11817,15 +12006,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55797"
+          "Value": "56924"
         },
         {
           "Name": "ETag",
-          "Value": "\"m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk=\""
+          "Value": "\"i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11845,13 +12034,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=\""
+          "Value": "W/\"GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrnqsv02kj"
+          "Value": "bo7x2hw598"
         },
         {
           "Name": "label",
@@ -11859,13 +12048,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk="
+          "Value": "sha256-GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8="
         }
       ]
     },
     {
-      "Route": "_framework/ClinicaLandingPage.jrnqsv02kj.pdb.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-jrnqsv02kj.gz",
+      "Route": "_framework/ClinicaLandingPage.bo7x2hw598.pdb.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-bo7x2hw598.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11874,7 +12063,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55797"
+          "Value": "56924"
         },
         {
           "Name": "Content-Type",
@@ -11882,11 +12071,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk=\""
+          "Value": "\"i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11904,7 +12093,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrnqsv02kj"
+          "Value": "bo7x2hw598"
         },
         {
           "Name": "label",
@@ -11912,7 +12101,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk="
+          "Value": "sha256-i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ="
         }
       ]
     },
@@ -11927,7 +12116,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64120"
+          "Value": "65320"
         },
         {
           "Name": "Content-Type",
@@ -11935,11 +12124,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=\""
+          "Value": "\"GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:13 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11949,18 +12138,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk="
+          "Value": "sha256-GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8="
         }
       ]
     },
     {
       "Route": "_framework/ClinicaLandingPage.pdb",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-jrnqsv02kj.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-bo7x2hw598.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000017921789"
+          "Quality": "0.000017566974"
         }
       ],
       "ResponseHeaders": [
@@ -11970,15 +12159,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55797"
+          "Value": "56924"
         },
         {
           "Name": "ETag",
-          "Value": "\"m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk=\""
+          "Value": "\"i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11998,19 +12187,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=\""
+          "Value": "W/\"GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk="
+          "Value": "sha256-GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8="
         }
       ]
     },
     {
       "Route": "_framework/ClinicaLandingPage.pdb.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-jrnqsv02kj.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\3jt51q5ujm-bo7x2hw598.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12019,7 +12208,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55797"
+          "Value": "56924"
         },
         {
           "Name": "Content-Type",
@@ -12027,11 +12216,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk=\""
+          "Value": "\"i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12049,12 +12238,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m16A38HNRJ94cl5be5RmKgqVz2eNYMOqxPLThuQVKlk="
+          "Value": "sha256-i6U8+1rdHtuoYLo3UjDWUQNblDRBjud53aq0hXTRwuQ="
         }
       ]
     },
     {
-      "Route": "_framework/ClinicaLandingPage.ri3kvnpcfx.wasm",
+      "Route": "_framework/ClinicaLandingPage.pf4jakntbj.wasm",
       "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ClinicaLandingPage.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12064,7 +12253,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "124693"
+          "Value": "125717"
         },
         {
           "Name": "Content-Type",
@@ -12072,11 +12261,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=\""
+          "Value": "\"y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:13 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12086,7 +12275,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ri3kvnpcfx"
+          "Value": "pf4jakntbj"
         },
         {
           "Name": "label",
@@ -12094,18 +12283,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0="
+          "Value": "sha256-y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E="
         }
       ]
     },
     {
-      "Route": "_framework/ClinicaLandingPage.ri3kvnpcfx.wasm",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-ri3kvnpcfx.gz",
+      "Route": "_framework/ClinicaLandingPage.pf4jakntbj.wasm",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-pf4jakntbj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028184893"
+          "Quality": "0.000027590774"
         }
       ],
       "ResponseHeaders": [
@@ -12115,15 +12304,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35479"
+          "Value": "36243"
         },
         {
           "Name": "ETag",
-          "Value": "\"qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw=\""
+          "Value": "\"vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12143,13 +12332,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=\""
+          "Value": "W/\"y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ri3kvnpcfx"
+          "Value": "pf4jakntbj"
         },
         {
           "Name": "label",
@@ -12157,13 +12346,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0="
+          "Value": "sha256-y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E="
         }
       ]
     },
     {
-      "Route": "_framework/ClinicaLandingPage.ri3kvnpcfx.wasm.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-ri3kvnpcfx.gz",
+      "Route": "_framework/ClinicaLandingPage.pf4jakntbj.wasm.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-pf4jakntbj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12172,7 +12361,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35479"
+          "Value": "36243"
         },
         {
           "Name": "Content-Type",
@@ -12180,11 +12369,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw=\""
+          "Value": "\"vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12202,7 +12391,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ri3kvnpcfx"
+          "Value": "pf4jakntbj"
         },
         {
           "Name": "label",
@@ -12210,7 +12399,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw="
+          "Value": "sha256-vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM="
         }
       ]
     },
@@ -12225,7 +12414,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "124693"
+          "Value": "125717"
         },
         {
           "Name": "Content-Type",
@@ -12233,11 +12422,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=\""
+          "Value": "\"y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:13 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12247,18 +12436,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0="
+          "Value": "sha256-y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E="
         }
       ]
     },
     {
       "Route": "_framework/ClinicaLandingPage.wasm",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-ri3kvnpcfx.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-pf4jakntbj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028184893"
+          "Quality": "0.000027590774"
         }
       ],
       "ResponseHeaders": [
@@ -12268,15 +12457,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35479"
+          "Value": "36243"
         },
         {
           "Name": "ETag",
-          "Value": "\"qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw=\""
+          "Value": "\"vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12296,19 +12485,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=\""
+          "Value": "W/\"y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0="
+          "Value": "sha256-y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E="
         }
       ]
     },
     {
       "Route": "_framework/ClinicaLandingPage.wasm.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-ri3kvnpcfx.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\z0wpk96g9i-pf4jakntbj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12317,7 +12506,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35479"
+          "Value": "36243"
         },
         {
           "Name": "Content-Type",
@@ -12325,11 +12514,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw=\""
+          "Value": "\"vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12347,7 +12536,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qy0L49IgDp/dm6H/Fr+CE1nqYWaOs2Xahb/RsIxXbjw="
+          "Value": "sha256-vJnFtgQgtCRpLkgpJEolMPNZxtdBZYzzyiGf9qmRlTM="
         }
       ]
     },
@@ -73390,8 +73579,746 @@
       ]
     },
     {
+      "Route": "images/banner.6emwj7lh9l.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XjhUNdqhb2U3cTfCtkY7Tc6DpWNXhwEYkMQU9/suZ0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:25:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6emwj7lh9l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XjhUNdqhb2U3cTfCtkY7Tc6DpWNXhwEYkMQU9/suZ0E="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XjhUNdqhb2U3cTfCtkY7Tc6DpWNXhwEYkMQU9/suZ0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:25:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XjhUNdqhb2U3cTfCtkY7Tc6DpWNXhwEYkMQU9/suZ0E="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.cqtidas97k.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204482"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BPzRYCozND18i6UR51exQktvE9/ptMuX3lCw1fteXwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 04:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqtidas97k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPzRYCozND18i6UR51exQktvE9/ptMuX3lCw1fteXwk="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204482"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BPzRYCozND18i6UR51exQktvE9/ptMuX3lCw1fteXwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 04:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPzRYCozND18i6UR51exQktvE9/ptMuX3lCw1fteXwk="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.or5jzlgec7.png",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "303814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGVBb6TJDwK2F3OQfXG6/UM3qcfe2fLuyMrzLFfkzQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 04:16:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or5jzlgec7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGVBb6TJDwK2F3OQfXG6/UM3qcfe2fLuyMrzLFfkzQc="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "303814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGVBb6TJDwK2F3OQfXG6/UM3qcfe2fLuyMrzLFfkzQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 04:16:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGVBb6TJDwK2F3OQfXG6/UM3qcfe2fLuyMrzLFfkzQc="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi1.3n4xfq0a8j.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QdOgXlX8hPexO9z93GlMeZ4qC28CVf76rm8UqAHmdq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3n4xfq0a8j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/publi1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdOgXlX8hPexO9z93GlMeZ4qC28CVf76rm8UqAHmdq4="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi1.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QdOgXlX8hPexO9z93GlMeZ4qC28CVf76rm8UqAHmdq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdOgXlX8hPexO9z93GlMeZ4qC28CVf76rm8UqAHmdq4="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi2.588xtoyd0u.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aRP8aP1SBtsmANaQWZf+G5ftu24/RrV1YyvaZaQ69s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:27:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "588xtoyd0u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/publi2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aRP8aP1SBtsmANaQWZf+G5ftu24/RrV1YyvaZaQ69s="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi2.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aRP8aP1SBtsmANaQWZf+G5ftu24/RrV1YyvaZaQ69s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:27:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aRP8aP1SBtsmANaQWZf+G5ftu24/RrV1YyvaZaQ69s="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi3.3x44xngwf8.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZFC24mOmMWvXG6WcABYkNapobZ/9hE8/okKSZLUE+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:27:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3x44xngwf8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/publi3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZFC24mOmMWvXG6WcABYkNapobZ/9hE8/okKSZLUE+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi3.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZFC24mOmMWvXG6WcABYkNapobZ/9hE8/okKSZLUE+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:27:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZFC24mOmMWvXG6WcABYkNapobZ/9hE8/okKSZLUE+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi4.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YtziO5s8rNn7nvS8ItTcM1CSv5zBLaU59wx0VbMDGBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:29:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YtziO5s8rNn7nvS8ItTcM1CSv5zBLaU59wx0VbMDGBU="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi4.yvmb3qdekx.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YtziO5s8rNn7nvS8ItTcM1CSv5zBLaU59wx0VbMDGBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:29:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yvmb3qdekx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/publi4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YtziO5s8rNn7nvS8ItTcM1CSv5zBLaU59wx0VbMDGBU="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi5.8nm1n2z02z.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HOiehAD7zbKugJui/eoqGgoAuNyjEZsILiihoAoF44c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8nm1n2z02z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/publi5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HOiehAD7zbKugJui/eoqGgoAuNyjEZsILiihoAoF44c="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi5.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HOiehAD7zbKugJui/eoqGgoAuNyjEZsILiihoAoF44c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HOiehAD7zbKugJui/eoqGgoAuNyjEZsILiihoAoF44c="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi6.axosd7f8y6.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0vnVlKItP2a/cFOyQpzUjA8WES0g1UlqcKyoKvlkynU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "axosd7f8y6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/publi6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0vnVlKItP2a/cFOyQpzUjA8WES0g1UlqcKyoKvlkynU="
+        }
+      ]
+    },
+    {
+      "Route": "images/publi6.jpg",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\images\\publi6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0vnVlKItP2a/cFOyQpzUjA8WES0g1UlqcKyoKvlkynU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Apr 2026 03:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0vnVlKItP2a/cFOyQpzUjA8WES0g1UlqcKyoKvlkynU="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-qy6e726866.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-iubcec5v7j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -73410,11 +74337,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk=\""
+          "Value": "\"soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Apr 2026 23:07:53 GMT"
+          "Value": "Mon, 13 Apr 2026 04:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73434,13 +74361,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=\""
+          "Value": "W/\"BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA="
+          "Value": "sha256-BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio="
         }
       ]
     },
@@ -73455,7 +74382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1227"
+          "Value": "1229"
         },
         {
           "Name": "Content-Type",
@@ -73463,11 +74390,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=\""
+          "Value": "\"BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Apr 2026 23:07:53 GMT"
+          "Value": "Mon, 13 Apr 2026 04:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73477,13 +74404,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA="
+          "Value": "sha256-BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-qy6e726866.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-iubcec5v7j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73500,11 +74427,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk=\""
+          "Value": "\"soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Apr 2026 23:07:53 GMT"
+          "Value": "Mon, 13 Apr 2026 04:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73522,13 +74449,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk="
+          "Value": "sha256-soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ="
         }
       ]
     },
     {
-      "Route": "index.qy6e726866.html",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-qy6e726866.gz",
+      "Route": "index.iubcec5v7j.html",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-iubcec5v7j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -73547,11 +74474,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk=\""
+          "Value": "\"soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Apr 2026 23:07:53 GMT"
+          "Value": "Mon, 13 Apr 2026 04:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73571,13 +74498,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=\""
+          "Value": "W/\"BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qy6e726866"
+          "Value": "iubcec5v7j"
         },
         {
           "Name": "label",
@@ -73585,12 +74512,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA="
+          "Value": "sha256-BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio="
         }
       ]
     },
     {
-      "Route": "index.qy6e726866.html",
+      "Route": "index.iubcec5v7j.html",
       "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73600,7 +74527,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1227"
+          "Value": "1229"
         },
         {
           "Name": "Content-Type",
@@ -73608,11 +74535,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=\""
+          "Value": "\"BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Apr 2026 23:07:53 GMT"
+          "Value": "Mon, 13 Apr 2026 04:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73622,7 +74549,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qy6e726866"
+          "Value": "iubcec5v7j"
         },
         {
           "Name": "label",
@@ -73630,13 +74557,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA="
+          "Value": "sha256-BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio="
         }
       ]
     },
     {
-      "Route": "index.qy6e726866.html.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-qy6e726866.gz",
+      "Route": "index.iubcec5v7j.html.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\l66cy9556u-iubcec5v7j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73653,11 +74580,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk=\""
+          "Value": "\"soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Apr 2026 23:07:53 GMT"
+          "Value": "Mon, 13 Apr 2026 04:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73675,7 +74602,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qy6e726866"
+          "Value": "iubcec5v7j"
         },
         {
           "Name": "label",
@@ -73683,7 +74610,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YdTHApfPO1pLMEPaJNcnjA/0Q1pL9cEhhpv74r1VOGk="
+          "Value": "sha256-soq1U3aGQIisSyXxSYW49rxDS6/t3tOmT11Qx83pHxQ="
         }
       ]
     },
@@ -87099,12 +88026,12 @@
     },
     {
       "Route": "service-worker-assets.js",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\0okuc174vk-iz8vjkt507.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\0okuc174vk-tla4x8po35.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077863428"
+          "Quality": "0.000075683039"
         }
       ],
       "ResponseHeaders": [
@@ -87114,15 +88041,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12842"
+          "Value": "13212"
         },
         {
           "Name": "ETag",
-          "Value": "\"6Xulqld6H5qKoHmU4uSnsyOICKSzXbd45mWF64LPKfQ=\""
+          "Value": "\"0Bc+1qdI6142I5RWB5AcyEA7qnM5rhx3LWgA1LKA7WA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87142,13 +88069,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wu2lStHRNNK4bS20N+JYTbySh8/06nYONeFF73g5rrc=\""
+          "Value": "W/\"sX+rLijn4uRVC/2JNd2oEQikYs/mTZ2fngTzlcz9OZs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wu2lStHRNNK4bS20N+JYTbySh8/06nYONeFF73g5rrc="
+          "Value": "sha256-sX+rLijn4uRVC/2JNd2oEQikYs/mTZ2fngTzlcz9OZs="
         }
       ]
     },
@@ -87163,7 +88090,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39552"
+          "Value": "40619"
         },
         {
           "Name": "Content-Type",
@@ -87171,11 +88098,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wu2lStHRNNK4bS20N+JYTbySh8/06nYONeFF73g5rrc=\""
+          "Value": "\"sX+rLijn4uRVC/2JNd2oEQikYs/mTZ2fngTzlcz9OZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87185,13 +88112,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wu2lStHRNNK4bS20N+JYTbySh8/06nYONeFF73g5rrc="
+          "Value": "sha256-sX+rLijn4uRVC/2JNd2oEQikYs/mTZ2fngTzlcz9OZs="
         }
       ]
     },
     {
       "Route": "service-worker-assets.js.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\0okuc174vk-iz8vjkt507.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\0okuc174vk-tla4x8po35.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -87200,7 +88127,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12842"
+          "Value": "13212"
         },
         {
           "Name": "Content-Type",
@@ -87208,11 +88135,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6Xulqld6H5qKoHmU4uSnsyOICKSzXbd45mWF64LPKfQ=\""
+          "Value": "\"0Bc+1qdI6142I5RWB5AcyEA7qnM5rhx3LWgA1LKA7WA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87230,13 +88157,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6Xulqld6H5qKoHmU4uSnsyOICKSzXbd45mWF64LPKfQ="
+          "Value": "sha256-0Bc+1qdI6142I5RWB5AcyEA7qnM5rhx3LWgA1LKA7WA="
         }
       ]
     },
     {
       "Route": "service-worker.js",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\n5sdb354n6-466kclszy8.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\n5sdb354n6-njz0018ke4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -87259,7 +88186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87279,13 +88206,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xCOECOpNhdekDEllgvtxmB77RIutVnNkhKxcg2DaP9s=\""
+          "Value": "W/\"89e+RSkQPZ4g10P3r5Kw2q3D+3w8bWhhXVIW8600DHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xCOECOpNhdekDEllgvtxmB77RIutVnNkhKxcg2DaP9s="
+          "Value": "sha256-89e+RSkQPZ4g10P3r5Kw2q3D+3w8bWhhXVIW8600DHw="
         }
       ]
     },
@@ -87308,7 +88235,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xCOECOpNhdekDEllgvtxmB77RIutVnNkhKxcg2DaP9s=\""
+          "Value": "\"89e+RSkQPZ4g10P3r5Kw2q3D+3w8bWhhXVIW8600DHw=\""
         },
         {
           "Name": "Last-Modified",
@@ -87322,13 +88249,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xCOECOpNhdekDEllgvtxmB77RIutVnNkhKxcg2DaP9s="
+          "Value": "sha256-89e+RSkQPZ4g10P3r5Kw2q3D+3w8bWhhXVIW8600DHw="
         }
       ]
     },
     {
       "Route": "service-worker.js.gz",
-      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\n5sdb354n6-466kclszy8.gz",
+      "AssetFile": "F:\\proyectC#\\ClinicaLandingPage\\ClinicaLandingPage\\obj\\Debug\\net9.0\\compressed\\n5sdb354n6-njz0018ke4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -87349,7 +88276,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Apr 2026 02:44:14 GMT"
+          "Value": "Mon, 13 Apr 2026 04:55:05 GMT"
         },
         {
           "Name": "Cache-Control",

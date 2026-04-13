@@ -1,25 +1,27 @@
 ﻿@using MudBlazor
 
-<MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-8 fw-bold">Estructura Organizacional</MudText>
+<MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-8 fw-bold">Estructura Organizacional y Roles SIGEC</MudText>
 
 <MudGrid>
     <MudItem xs="12" md="5">
         <MudPaper Elevation="4" Class="pa-6 rounded-lg border-l-4" Style="border-left-color: var(--mud-palette-primary); height: 100%;">
             <MudText Typo="Typo.h6" Class="mb-4">
                 <MudIcon Icon="@Icons.Material.Filled.AccountTree" Class="mr-2" />
-                Organigrama Funcional
+                Organigrama Institucional
             </MudText>
             <MudTreeView T="string" Hover="true">
-                <MudTreeViewItem Value="@("Gerencia General")" Expanded="true">
-                    <MudTreeViewItem Value="@("Dirección Médica")" Expanded="true">
-                        <MudTreeViewItem Value="@("Unidad de Ginecología y Obstetricia")" />
-                        <MudTreeViewItem Value="@("Servicio de Monitoreo Fetal")" />
-                        <MudTreeViewItem Value="@("Área de Psicoprofilaxis")" />
+                <MudTreeViewItem Value="@("GERENCIA GENERAL (Dueña / Directora)")" Expanded="true">
+                    
+                    <MudTreeViewItem Value="@("ADMISIÓN Y CAJA (Citas y Cobros)")" Expanded="true">
+                        <MudTreeViewItem Value="@("SERVICIOS EXT. (Farmacia / Laboratorio)")" />
                     </MudTreeViewItem>
-                    <MudTreeViewItem Value="@("Dirección Administrativa")" Expanded="true">
-                        <MudTreeViewItem Value="@("Admisión y Gestión SIGEC")" />
-                        <MudTreeViewItem Value="@("Soporte Técnico e Infraestructura")" />
+
+                    <MudTreeViewItem Value="@("DIRECCIÓN MÉDICA")" Expanded="true">
+                        <MudTreeViewItem Value="@("CONSULTA (Triaje / Eco / Controles)")" />
+                        <MudTreeViewItem Value="@("HOSPITAL (Camas / Post-parto)")" />
+                        <MudTreeViewItem Value="@("CENTRO QUIRÚRGICO (Partos / Cesáreas)")" />
                     </MudTreeViewItem>
+
                 </MudTreeViewItem>
             </MudTreeView>
         </MudPaper>
@@ -27,30 +29,34 @@
 
     <MudItem xs="12" md="7">
         <MudExpansionPanels MultiExpansion="true" Elevation="2" Class="rounded-lg overflow-hidden">
-            <MudExpansionPanel Text="Área Médica (Ginecología y Obstetricia)">
+            <MudExpansionPanel Text="Área de Gerencia y Dirección (Acceso Total)">
                 <MudText Typo="Typo.body2">
-                    Núcleo operativo encargado de la atención prenatal, controles ginecológicos y partos. Se apoya en el sistema <strong>SIGEC</strong> para el seguimiento en tiempo real de la evolución de las gestantes y la emisión de alertas preventivas.
+                    Supervisión global de la clínica. El sistema <strong>SIGEC</strong> otorga a este rol acceso a reportes gerenciales, estadísticas de cirugías y visualización de ecografías de alta complejidad.
                 </MudText>
             </MudExpansionPanel>
-            <MudExpansionPanel Text="Área de Admisión y Transformación Digital">
+            <MudExpansionPanel Text="Área Médica y Obstétrica (Gestión Clínica)">
                 <MudText Typo="Typo.body2">
-                    Encargada del primer contacto con la paciente. Gestiona el registro único mediante DNI y la asignación automática de Historias Clínicas. Es el área responsable de la integridad de los datos demográficos y la agenda de citas digital.
+                    Responsables de la evolución de la paciente. Tienen permisos para edición de <strong>Historias Clínicas</strong>, registro de triaje y seguimiento de controles prenatales.
                 </MudText>
             </MudExpansionPanel>
-            <MudExpansionPanel Text="Área de Soporte e Infraestructura">
+            <MudExpansionPanel Text="Admisión, Caja y Hospitalización">
                 <MudText Typo="Typo.body2">
-                    Garantiza la disponibilidad de la red y la persistencia de datos en PostgreSQL, asegurando que la arquitectura hexagonal del sistema permita una atención fluida incluso en condiciones de conectividad intermitente.
+                    Gestión de flujo de pacientes. Incluye el control de citas, cobros y, en el área de hospitalización, el registro estricto de administración de medicamentos mediante el módulo de enfermería.
                 </MudText>
             </MudExpansionPanel>
         </MudExpansionPanels>
+        
+        <MudAlert Severity="Severity.Info" Variant="Variant.Outlined" Class="mt-4" Icon="@Icons.Material.Filled.Lock">
+            Los roles de usuario en SIGEC están segmentados por arquitectura de seguridad para garantizar la protección de datos sensibles.
+        </MudAlert>
     </MudItem>
 
     <MudItem xs="12">
-        <MudText Typo="Typo.h5" Align="Align.Center" Color="Color.Primary" Class="mt-10 mb-6 fw-bold">Nuestro Staff Profesional</MudText>
+        <MudText Typo="Typo.h5" Align="Align.Center" Color="Color.Primary" Class="mt-10 mb-6 fw-bold">Personal y Roles de Sistema</MudText>
         <MudGrid>
             @foreach (var persona in _staff)
             {
-                <MudItem xs="12" sm="6" md="4">
+                <MudItem xs="12" sm="6" md="3">
                     <MudCard Elevation="3" Class="h-100 rounded-lg border-t-4" Style="@($"border-top-color: {persona.ColorBorde};")">
                         <MudCardHeader>
                             <CardHeaderAvatar>
@@ -62,7 +68,7 @@
                             </CardHeaderContent>
                         </MudCardHeader>
                         <MudCardContent>
-                            <MudText Typo="Typo.body2" Class="text-muted">@persona.Descripcion</MudText>
+                            <MudText Typo="Typo.body2" Class="text-muted"><strong>Permisos:</strong> @persona.Descripcion</MudText>
                         </MudCardContent>
                     </MudCard>
                 </MudItem>
@@ -75,25 +81,32 @@
     private List<StaffMember> _staff = new()
     {
         new StaffMember { 
-            Nombre = "Dr. Marco Antonio Condori", 
-            Cargo = "Director Médico / Ginecólogo-Obstetra", 
-            Descripcion = "Especialista en embarazos de alto riesgo con amplia trayectoria en la región Puno. Lidera los protocolos médicos integrados a SIGEC.",
+            Nombre = "Dra. Dueña/Directora", 
+            Cargo = "Gerente General", 
+            Descripcion = "Acceso total a reportes, ecografías, programación quirúrgica y auditoría de SIGEC.",
+            AvatarColor = Color.Dark,
+            ColorBorde = "var(--mud-palette-dark)"
+        },
+        new StaffMember { 
+            Nombre = "Obstetra de Turno", 
+            Cargo = "Especialista Obstetra", 
+            Descripcion = "Gestión de Historia Clínica, registro de triaje y control prenatal de pacientes.",
             AvatarColor = Color.Primary,
             ColorBorde = "var(--mud-palette-primary)"
         },
         new StaffMember { 
-            Nombre = "Lic. Elena Mamani", 
-            Cargo = "Jefe de Obstetricia", 
-            Descripcion = "Experta en psicoprofilaxis y atención humanizada del parto. Coordina el seguimiento prenatal digital y la educación a la madre.",
-            AvatarColor = Color.Secondary,
-            ColorBorde = "var(--mud-palette-secondary)"
-        },
-        new StaffMember { 
-            Nombre = "Ing. Sistemas (Gestión SIGEC)", 
-            Cargo = "Coordinador de Admisión Digital", 
-            Descripcion = "Responsable de la integridad de las Historias Clínicas y la operatividad técnica de la plataforma en la sede Juliaca.",
+            Nombre = "Personal de Admisión", 
+            Cargo = "Recepcionista", 
+            Descripcion = "Módulo de agendamiento de citas, registro de DNI y gestión de cobros en caja.",
             AvatarColor = Color.Info,
             ColorBorde = "var(--mud-palette-info)"
+        },
+        new StaffMember { 
+            Nombre = "Lic. en Enfermería", 
+            Cargo = "Hospitalización", 
+            Descripcion = "Registro de administración de medicamentos y monitoreo post-parto en sistema.",
+            AvatarColor = Color.Success,
+            ColorBorde = "var(--mud-palette-success)"
         }
     };
 

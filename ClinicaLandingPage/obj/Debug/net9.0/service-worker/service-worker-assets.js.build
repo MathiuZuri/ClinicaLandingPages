@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "EJS6+QeW",
+  "version": "egraXwtV",
   "assets": [
     {
       "hash": "sha256-4U4VjN2yYuSv0hJWjfrPs9iSFsZ5W0YiXR4AQnFkLGQ=",
@@ -14,12 +14,12 @@ self.assetsManifest = {
       "url": "_content/MudBlazor/MudBlazor.min.js.map"
     },
     {
-      "hash": "sha256-z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=",
-      "url": "_framework/ClinicaLandingPage.jrnqsv02kj.pdb"
+      "hash": "sha256-GwviVCvg6KUBd/BlN+q76E8Q2K6cgEj6RuLyLbsRoa8=",
+      "url": "_framework/ClinicaLandingPage.bo7x2hw598.pdb"
     },
     {
-      "hash": "sha256-Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=",
-      "url": "_framework/ClinicaLandingPage.ri3kvnpcfx.wasm"
+      "hash": "sha256-y5guQLKxfUSy/wgizExcYRm0I8J0TzjoGAYnRYgld+E=",
+      "url": "_framework/ClinicaLandingPage.pf4jakntbj.wasm"
     },
     {
       "hash": "sha256-zPFXeeGdBs4UPBpbat5NEN4EI/Ig1eV4jzbgb6Pcurc=",
@@ -790,7 +790,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.5lai2eowco.wasm"
     },
     {
-      "hash": "sha256-eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs=",
+      "hash": "sha256-aP5cIygKwEipIjJMb0RvGlLOI0OhYHA9gmWYuGCCPB8=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -858,7 +858,43 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=",
+      "hash": "sha256-XjhUNdqhb2U3cTfCtkY7Tc6DpWNXhwEYkMQU9/suZ0E=",
+      "url": "images/banner.jpg"
+    },
+    {
+      "hash": "sha256-BPzRYCozND18i6UR51exQktvE9/ptMuX3lCw1fteXwk=",
+      "url": "images/logo.jpg"
+    },
+    {
+      "hash": "sha256-DGVBb6TJDwK2F3OQfXG6/UM3qcfe2fLuyMrzLFfkzQc=",
+      "url": "images/logo.png"
+    },
+    {
+      "hash": "sha256-QdOgXlX8hPexO9z93GlMeZ4qC28CVf76rm8UqAHmdq4=",
+      "url": "images/publi1.jpg"
+    },
+    {
+      "hash": "sha256-5aRP8aP1SBtsmANaQWZf+G5ftu24/RrV1YyvaZaQ69s=",
+      "url": "images/publi2.jpg"
+    },
+    {
+      "hash": "sha256-GZFC24mOmMWvXG6WcABYkNapobZ/9hE8/okKSZLUE+s=",
+      "url": "images/publi3.jpg"
+    },
+    {
+      "hash": "sha256-YtziO5s8rNn7nvS8ItTcM1CSv5zBLaU59wx0VbMDGBU=",
+      "url": "images/publi4.jpg"
+    },
+    {
+      "hash": "sha256-HOiehAD7zbKugJui/eoqGgoAuNyjEZsILiihoAoF44c=",
+      "url": "images/publi5.jpg"
+    },
+    {
+      "hash": "sha256-0vnVlKItP2a/cFOyQpzUjA8WES0g1UlqcKyoKvlkynU=",
+      "url": "images/publi6.jpg"
+    },
+    {
+      "hash": "sha256-BqvYSyPUFRKctGHcrSCNVmf59WBk3Tx1bAqchPy+Mio=",
       "url": "index.html"
     },
     {

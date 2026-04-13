@@ -1,5 +1,21 @@
 ﻿@using MudBlazor
 
+<style>
+    /* Algoritmo de ajuste proporcional CSS */
+    .carrusel-proporcional {
+        width: 100% !important;
+        /* Proporción 1:1 es ideal para posts de FB en columnas laterales */
+        aspect-ratio: 1 / 1 !important; 
+        height: auto !important;
+        background-color: #1a1a1a;
+    }
+
+    /* Forzamos que el contenedor interno de MudBlazor respete la proporción */
+    .carrusel-proporcional .mud-carousel-item-container {
+        height: 100% !important;
+    }
+</style>
+
 <MudGrid Class="mt-8 mb-8">
     
     <MudItem xs="12" md="6">
@@ -10,26 +26,23 @@
         
         <MudPaper Elevation="2" Class="pa-6 rounded-lg h-100 border-l-4" Style="border-left-color: var(--mud-palette-secondary); background-color: var(--mud-palette-background-grey);">
             <MudText Typo="Typo.body1" Class="mb-4">
-                En <strong>Santa Mónica</strong>, nuestra responsabilidad va más allá de la consulta. Nos enfocamos en reducir las brechas de salud materna en la región Puno mediante el uso de nuestra tecnología <strong>SIGEC</strong> para el bien común.
+                En <strong>Santa Mónica</strong>, nuestra responsabilidad va más allá de la consulta. Nos enfocamos en reducir las brechas de salud materna en la región Puno.
             </MudText>
             
             <MudList T="string" Dense="true">
                 <MudListItem Icon="@Icons.Material.Filled.AppRegistration" IconColor="Color.Secondary">
-                    <strong>Tele-orientación Gratuita:</strong> Charlas virtuales sobre psicoprofilaxis para madres en zonas rurales con difícil acceso.
+                    <strong>Tele-orientación Gratuita:</strong> Charlas virtuales en zonas rurales.
                 </MudListItem>
                 <MudListItem Icon="@Icons.Material.Filled.Analytics" IconColor="Color.Secondary">
-                    <strong>Campaña "Maternidad Segura":</strong> Jornadas de despistaje gratuito de preeclampsia y anemia gestacional trimestralmente.
+                    <strong>Campaña "Maternidad Segura":</strong> Despistajes trimestrales.
                 </MudListItem>
                 <MudListItem Icon="@Icons.Material.Filled.Devices" IconColor="Color.Secondary">
-                    <strong>Alfabetización Digital:</strong> Talleres para pacientes sobre el uso de su <strong>Historia Clínica Digital</strong> y el seguimiento de citas vía WhatsApp.
-                </MudListItem>
-                <MudListItem Icon="@Icons.Material.Filled.Handshake" IconColor="Color.Secondary">
-                    <strong>Convenios Sociales:</strong> Tarifas diferenciadas para pacientes derivadas de programas de apoyo social en Juliaca.
+                    <strong>Alfabetización Digital:</strong> Uso de Historia Clínica Digital.
                 </MudListItem>
             </MudList>
 
             <MudButton Variant="Variant.Filled" Color="Color.Secondary" Class="mt-6 rounded-pill" EndIcon="@Icons.Material.Filled.ArrowForward">
-                Conoce nuestras campañas
+                Ver Campañas
             </MudButton>
         </MudPaper>
     </MudItem>
@@ -37,34 +50,48 @@
     <MudItem xs="12" md="6">
         <MudText Typo="Typo.h5" Color="Color.Primary" Class="mb-6 fw-bold">
             <MudIcon Icon="@Icons.Material.Filled.CameraAlt" Class="mr-2" />
-            Nuestra Infraestructura
+            Nuestra Publicidad e Instalaciones
         </MudText>
 
-        <MudCarousel TData="object" Class="mud-width-full rounded-lg shadow-lg" Style="height: 350px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true">
-            <MudCarouselItem Transition="Transition.Fade">
-                <div class="d-flex flex-column" style="height:100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'); background-size: cover; align-items: center; justify-content: center; color: white;">
-                    <MudIcon Icon="@Icons.Material.Filled.ChildFriendly" Style="font-size: 4rem;" />
-                    <MudText Typo="Typo.h6" Class="mt-2">Sala de Monitoreo Fetal</MudText>
-                    <MudText Typo="Typo.caption">Equipamiento de última generación para la seguridad de tu bebé.</MudText>
-                </div>
-            </MudCarouselItem>
-            <MudCarouselItem Transition="Transition.Fade">
-                <div class="d-flex flex-column" style="height:100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1538108197017-c1346073339f?auto=format&fit=crop&q=80&w=800'); background-size: cover; align-items: center; justify-content: center; color: white;">
-                    <MudIcon Icon="@Icons.Material.Filled.LaptopMac" Style="font-size: 4rem;" />
-                    <MudText Typo="Typo.h6" Class="mt-2">Recepción Digital Integrada</MudText>
-                    <MudText Typo="Typo.caption">Gestión rápida con SIGEC: menos espera, más atención.</MudText>
-                </div>
-            </MudCarouselItem>
-            <MudCarouselItem Transition="Transition.Fade">
-                <div class="d-flex flex-column" style="height:100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'); background-size: cover; align-items: center; justify-content: center; color: white;">
-                    <MudIcon Icon="@Icons.Material.Filled.HealthAndSafety" Style="font-size: 4rem;" />
-                    <MudText Typo="Typo.h6" Class="mt-2">Consultorios Ginecológicos</MudText>
-                    <MudText Typo="Typo.caption">Ambientes privados, cómodos y altamente higienizados.</MudText>
+        <MudCarousel TData="object" 
+                     Class="carrusel-proporcional rounded-lg shadow-lg" 
+                     ShowArrows="true" 
+                     ShowBullets="true" 
+                     AutoCycle="true">
+
+            @for (int i = 1; i <= 6; i++)
+            {
+                var imgSrc = $"/images/publi{i}.jpg";
+                <MudCarouselItem Transition="Transition.Slide">
+                    <div class="d-flex align-center justify-center w-full h-full" style="overflow: hidden; position: relative;">
+                        @* Fondo blur para rellenar espacios si la imagen no es perfectamente cuadrada *@
+                        <img src="@imgSrc" style="position: absolute; width: 110%; height: 110%; object-fit: cover; filter: blur(15px); opacity: 0.3;" />
+
+                        <MudImage Src="@imgSrc" 
+                                  Alt="@($"Publicidad {i}")" 
+                                  Style="max-height: 100%; max-width: 100%; width: auto; height: auto; z-index: 2;"
+                                  ObjectFit="ObjectFit.Contain" />
+                    </div>
+                </MudCarouselItem>
+            }
+
+            <MudCarouselItem Transition="Transition.Slide">
+                <div class="relative w-full h-full" style="background-color: #000;">
+                    <MudImage Src="/images/logo.jpg" 
+                              Alt="Instalaciones" 
+                              ObjectFit="ObjectFit.Cover" 
+                              Class="w-full h-full"
+                              Style="opacity: 0.7;" />
+                    <div style="position: absolute; bottom: 0; background: linear-gradient(transparent, rgba(0,0,0,0.85)); color: white; width: 100%; padding: 25px;">
+                        <MudText Typo="Typo.h5" Class="fw-bold">Tecnología SIGEC</MudText>
+                        <MudText Typo="Typo.body2">Atención digital personalizada en Juliaca.</MudText>
+                    </div>
                 </div>
             </MudCarouselItem>
         </MudCarousel>
+        
         <MudAlert Severity="Severity.Normal" Variant="Variant.Filled" Class="mt-4 py-1" Icon="@Icons.Material.Filled.LocationOn">
-            Ubicados estratégicamente en el corazón de Juliaca para tu comodidad.
+            Jr. Loreto N° 456, Cercado, Juliaca.
         </MudAlert>
     </MudItem>
 
