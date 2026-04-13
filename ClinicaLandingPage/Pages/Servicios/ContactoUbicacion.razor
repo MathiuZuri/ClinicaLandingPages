@@ -1,52 +1,60 @@
-﻿@using MudBlazor
-
+﻿
 <section id="contacto" class="mt-12 mb-16" style="scroll-margin-top: 90px;">
-    <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-8">Contacto y Ubicación</MudText>
+    <MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-8 fw-bold">Contacto y Ubicación</MudText>
 
     <MudGrid>
         <MudItem xs="12" md="5">
-            <MudPaper Elevation="2" Class="pa-6 rounded-lg h-100">
+            <MudPaper Elevation="3" Class="pa-6 rounded-lg h-100 border-t-4" Style="border-top-color: var(--mud-palette-primary);">
                 <MudText Typo="Typo.h6" Color="Color.Primary" Class="mb-4">Información de Atención</MudText>
                 
                 <MudList T="string">
                     <MudListItem Icon="@Icons.Material.Filled.Place">
-                        <MudText Typo="Typo.body1"><strong>Dirección:</strong> Av. Principal 123, Juliaca, Perú</MudText>
+                        <MudText Typo="Typo.body1"><strong>Dirección:</strong> Jr. Loreto N° 456, Cercado, Juliaca - Puno</MudText>
                     </MudListItem>
                     <MudListItem Icon="@Icons.Material.Filled.Phone">
-                        <MudText Typo="Typo.body1"><strong>Teléfono:</strong> +51 987 654 321</MudText>
+                        <MudText Typo="Typo.body1"><strong>Teléfono Central:</strong> (051) 321 654</MudText>
                     </MudListItem>
                     <MudListItem Icon="@Icons.Material.Filled.Email">
-                        <MudText Typo="Typo.body1"><strong>Email:</strong> contacto@tuclinica.com</MudText>
+                        <MudText Typo="Typo.body1"><strong>Email Institucional:</strong> contacto@santamonica.com.pe</MudText>
                     </MudListItem>
                     <MudListItem Icon="@Icons.Material.Filled.AccessTime">
-                        <MudText Typo="Typo.body1"><strong>Horario:</strong> Lun - Sáb: 8:00 AM - 8:00 PM</MudText>
+                        <MudText Typo="Typo.body1"><strong>Horario Administrativo:</strong> Lun - Sáb: 8:00 AM - 8:00 PM</MudText>
+                        <MudText Typo="Typo.caption" Color="Color.Error" Class="d-block mt-1 fw-bold">EMERGENCIAS OBSTÉTRICAS: 24 Horas</MudText>
                     </MudListItem>
                 </MudList>
 
-                <MudDivider Class="my-4" />
+                <MudDivider Class="my-6" />
 
-                <MudText Typo="Typo.subtitle1" Class="mb-2 fw-bold">¿Necesitas ayuda rápida?</MudText>
-                @* Botón de WhatsApp - Preparado para tu backend *@
+                <MudAlert Severity="Severity.Info" Variant="Variant.Outlined" Class="mb-4">
+                    Nuestros canales digitales están integrados a <strong>SIGEC</strong> para garantizar que su cita sea registrada en tiempo real.
+                </MudAlert>
+
+                <MudText Typo="Typo.subtitle1" Class="mb-2 fw-bold">Canal de Atención Inmediata</MudText>
+                @* Botón de WhatsApp - Preparado para la integración con tu API de WhatsApp Business *@
                 <MudButton Variant="Variant.Filled" 
                            Color="Color.Success" 
                            FullWidth="true" 
                            Size="Size.Large"
                            StartIcon="@Icons.Custom.Brands.WhatsApp"
-                           Href="https://wa.me/51987654321" 
+                           Style="font-weight: 700;"
+                           Href="https://wa.me/51987654321?text=Hola,%20quisiera%20agendar%20una%20cita%20en%20Clínica%20Santa%20Mónica" 
                            Target="_blank">
-                    Escríbenos por WhatsApp
+                    Agendar por WhatsApp
                 </MudButton>
+                <MudText Typo="Typo.caption" Align="Align.Center" Class="d-block mt-2 text-muted">
+                    Recibirás una notificación automática de confirmación.
+                </MudText>
             </MudPaper>
         </MudItem>
 
         <MudItem xs="12" md="7">
-            <MudPaper Elevation="2" Class="rounded-lg overflow-hidden h-100" Style="min-height: 400px;">
-                @* Reemplaza este src con el link de "Insertar mapa" de Google Maps de la ubicación real *@
+            <MudPaper Elevation="3" Class="rounded-lg overflow-hidden h-100 border-t-4" Style="border-top-color: var(--mud-palette-secondary); min-height: 450px;">
+                @* Mapa de Juliaca - Se recomienda usar el iframe real de la ubicación en Jr. Loreto o similar *@
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15344.604646733262!2d-70.133261!3d-15.492045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f3944111394f%3A0xc66c1e55047b744d!2sJuliaca!5e0!3m2!1ses!2spe!4v1713000000000!5m2!1ses!2spe" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15367.391741630133!2d-70.1345!3d-15.49!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f39414000001%3A0x88989f66085a8644!2sJuliaca!5e0!3m2!1ses!2spe!4v1712950000000!5m2!1ses!2spe" 
                     width="100%" 
                     height="100%" 
-                    style="border:0; min-height: 400px;" 
+                    style="border:0; min-height: 450px;" 
                     allowfullscreen="" 
                     loading="lazy">
                 </iframe>

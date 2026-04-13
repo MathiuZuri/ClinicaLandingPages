@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "j2PvUutB",
+  "version": "EJS6+QeW",
   "assets": [
     {
       "hash": "sha256-4U4VjN2yYuSv0hJWjfrPs9iSFsZ5W0YiXR4AQnFkLGQ=",
@@ -14,12 +14,12 @@ self.assetsManifest = {
       "url": "_content/MudBlazor/MudBlazor.min.js.map"
     },
     {
-      "hash": "sha256-2ZGQoUuPfSebPdbT1GpVyNwoUGVbn8we4q8k3aBfIPs=",
-      "url": "_framework/ClinicaLandingPage.3lrufaj632.wasm"
+      "hash": "sha256-z/K26+YIx7Y0r8hvn5cy6+f0Phri/510yQ67fPyg7qk=",
+      "url": "_framework/ClinicaLandingPage.jrnqsv02kj.pdb"
     },
     {
-      "hash": "sha256-FJIih4FvDj34YAakR2sM46eL78FUmnOeiYjtxVsELbY=",
-      "url": "_framework/ClinicaLandingPage.cs3jsu4j8s.pdb"
+      "hash": "sha256-Lea7QcmWVdD2GvGsoEW5WQ5Hq1NwR+UlwEe/8Rymxy0=",
+      "url": "_framework/ClinicaLandingPage.ri3kvnpcfx.wasm"
     },
     {
       "hash": "sha256-zPFXeeGdBs4UPBpbat5NEN4EI/Ig1eV4jzbgb6Pcurc=",
@@ -790,7 +790,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.5lai2eowco.wasm"
     },
     {
-      "hash": "sha256-zLHVr5x/VrJ01gzZWCugEPGt1CQwYephxWWo7we2XxE=",
+      "hash": "sha256-eY/ssrJrqtfcGuK1uMofqlNa4UU/TRjc8MNy5LrHjCs=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -858,7 +858,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-SDBvlY+Hgi6D79ZkdsFkjiQC4nzEqVWtEm4yXQ9yovY=",
+      "hash": "sha256-PtaSdmbUc/L8QTvB8/2uh5QL7bv6hW4R+uyAPVh1YfA=",
       "url": "index.html"
     },
     {

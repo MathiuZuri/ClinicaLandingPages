@@ -1,73 +1,100 @@
 ﻿
-<MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6 mt-12">Servicios y Tecnología</MudText>
+
+<MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-6 mt-12 fw-bold">Especialidades y Tecnología SIGEC</MudText>
 <MudText Typo="Typo.body1" Align="Align.Center" Class="mb-8 text-muted">
-    Atención médica especializada respaldada por infraestructura digital de vanguardia.
+    Excelencia médica en obstetricia potenciada por una arquitectura digital de alta disponibilidad.
 </MudText>
 
 <MudGrid>
     <MudItem xs="12" md="4">
-        <MudCard Elevation="2" Class="h-100 rounded-lg border-t-4" Style="border-top-color: var(--mud-palette-primary);">
+        <MudCard Elevation="3" Class="h-100 rounded-lg border-t-4" Style="border-top-color: var(--mud-palette-primary);">
             <MudCardHeader>
                 <CardHeaderAvatar>
-                    <MudAvatar Color="Color.Primary" Variant="Variant.Outlined">
-                        <MudIcon Icon="@Icons.Material.Filled.Favorite" />
+                    <MudAvatar Color="Color.Primary" Variant="Variant.Filled">
+                        <MudIcon Icon="@Icons.Material.Filled.PregnantWoman" />
                     </MudAvatar>
                 </CardHeaderAvatar>
                 <CardHeaderContent>
-                    <MudText Typo="Typo.h6">Cardiología</MudText>
+                    <MudText Typo="Typo.h6">Obstetricia Integral</MudText>
                 </CardHeaderContent>
             </MudCardHeader>
             <MudCardContent>
-                <MudText Typo="Typo.body2">Evaluación cardiovascular completa con equipos de ecocardiografía 3D de alta precisión para diagnósticos tempranos.</MudText>
+                <MudText Typo="Typo.body2">
+                    Control prenatal especializado con monitoreo fetal electrónico. Gracias a <strong>SIGEC</strong>, su historial de evolución es inalterable y accesible al instante.
+                </MudText>
             </MudCardContent>
         </MudCard>
     </MudItem>
 
     <MudItem xs="12" md="4">
-        <MudCard Elevation="2" Class="h-100 rounded-lg border-t-4" Style="border-top-color: var(--mud-palette-secondary);">
+        <MudCard Elevation="3" Class="h-100 rounded-lg border-t-4" Style="border-top-color: var(--mud-palette-secondary);">
             <MudCardHeader>
                 <CardHeaderAvatar>
-                    <MudAvatar Color="Color.Secondary" Variant="Variant.Outlined">
-                        <MudIcon Icon="@Icons.Material.Filled.ChildCare" />
+                    <MudAvatar Color="Color.Secondary" Variant="Variant.Filled">
+                        <MudIcon Icon="@Icons.Material.Filled.Female" />
                     </MudAvatar>
                 </CardHeaderAvatar>
                 <CardHeaderContent>
-                    <MudText Typo="Typo.h6">Pediatría</MudText>
+                    <MudText Typo="Typo.h6">Ginecología Moderna</MudText>
                 </CardHeaderContent>
             </MudCardHeader>
             <MudCardContent>
-                <MudText Typo="Typo.body2">Cuidado integral para niños y adolescentes en ambientes amigables, enfocados en el desarrollo y bienestar continuo.</MudText>
+                <MudText Typo="Typo.body2">
+                    Diagnóstico y tratamiento con calidez humana. Cada atención queda registrada bajo una <strong>Arquitectura Hexagonal</strong> que garantiza la privacidad de sus datos.
+                </MudText>
             </MudCardContent>
         </MudCard>
     </MudItem>
 
     <MudItem xs="12" md="4">
-        <MudCard Elevation="2" Class="h-100 rounded-lg border-t-4" Style="border-top-color: var(--mud-palette-success);">
+        <MudCard Elevation="3" Class="h-100 rounded-lg border-t-4" Style="border-top-color: var(--mud-palette-success);">
             <MudCardHeader>
                 <CardHeaderAvatar>
-                    <MudAvatar Color="Color.Success" Variant="Variant.Outlined">
-                        <MudIcon Icon="@Icons.Material.Filled.Science" />
+                    <MudAvatar Color="Color.Success" Variant="Variant.Filled">
+                        <MudIcon Icon="@Icons.Material.Filled.PersonalVideo" />
                     </MudAvatar>
                 </CardHeaderAvatar>
                 <CardHeaderContent>
-                    <MudText Typo="Typo.h6">Laboratorio Clínico</MudText>
+                    <MudText Typo="Typo.h6">Ecografía Especializada</MudText>
                 </CardHeaderContent>
             </MudCardHeader>
             <MudCardContent>
-                <MudText Typo="Typo.body2">Análisis clínicos automatizados con entrega de resultados digitales en tiempo récord y máxima confidencialidad.</MudText>
+                <MudText Typo="Typo.body2">
+                    Visualización avanzada del desarrollo fetal. Resultados digitales vinculados automáticamente a su <strong>Número de Historia Clínica</strong> único.
+                </MudText>
             </MudCardContent>
         </MudCard>
     </MudItem>
 
     <MudItem xs="12" Class="mt-8">
-        <MudPaper Elevation="0" Class="pa-6 rounded-lg" Style="background-color: var(--mud-palette-background);">
-            <MudText Typo="Typo.h6" Color="Color.Primary" Class="mb-4">
-                <MudIcon Icon="@Icons.Material.Filled.Memory" Class="mr-2" />
-                Innovación Tecnológica
-            </MudText>
-            <MudText Typo="Typo.body1">
-                Operamos sobre una arquitectura de backend robusta en <strong>ASP.NET Core</strong> para garantizar la seguridad absoluta de los historiales clínicos. Además, facilitamos la comunicación con nuestros pacientes mediante un sistema automatizado de notificaciones y recordatorios de citas integrado directamente con la <strong>API de WhatsApp Business</strong>.
-            </MudText>
+        <MudPaper Elevation="4" Class="pa-8 rounded-lg border-l-4" Style="border-left-color: var(--mud-palette-info); background-color: var(--mud-palette-background-grey);">
+            <MudGrid>
+                <MudItem xs="12" md="8">
+                    <MudText Typo="Typo.h5" Color="Color.Info" Class="mb-4 fw-bold">
+                        <MudIcon Icon="@Icons.Material.Filled.Dns" Class="mr-2" />
+                        Infraestructura Digital: SIGEC
+                    </MudText>
+                    <MudText Typo="Typo.body1" Class="mb-4">
+                        Nuestra plataforma opera sobre una <strong>Arquitectura Hexagonal</strong> (Puertos y Adaptadores) implementada en <strong>.NET 9</strong>, lo que nos permite desacoplar la lógica médica de la tecnología de base de datos (<strong>PostgreSQL</strong>).
+                    </MudText>
+                    <MudText Typo="Typo.body1">
+                        Esta robustez técnica garantiza que en entornos de <strong>conectividad intermitente como Juliaca</strong>, la gestión de citas y el control de DNIs sea infalible, seguro y escalable.
+                    </MudText>
+                </MudItem>
+                <MudItem xs="12" md="4" Class="d-flex align-center justify-center">
+                    <div class="pa-4 rounded-circle border-2" style="border: 2px dashed var(--mud-palette-info);">
+                        <MudIcon Icon="@Icons.Material.Filled.PhonelinkSetup" Color="Color.Info" Style="font-size: 5rem;" />
+                    </div>
+                </MudItem>
+
+                <MudItem xs="12">
+                    <MudDivider Class="my-4" />
+                    <MudChip T="string" Color="Color.Primary" Variant="Variant.Text" Icon="@Icons.Material.Filled.Code">Arquitectura Hexagonal</MudChip>
+                    <MudChip T="string" Color="Color.Secondary" Variant="Variant.Text" Icon="@Icons.Custom.Brands.WhatsApp">WhatsApp Business API</MudChip>
+                    <MudChip T="string" Color="Color.Info" Variant="Variant.Text" Icon="@Icons.Material.Filled.Storage">PostgreSQL</MudChip>
+                    <MudChip T="string" Color="Color.Dark" Variant="Variant.Text" Icon="@Icons.Material.Filled.Terminal">ASP.NET Core 9.0</MudChip>
+                </MudItem>
+            </MudGrid>
         </MudPaper>
     </MudItem>
 </MudGrid>

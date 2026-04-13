@@ -6,28 +6,51 @@
 <MudSnackbarProvider />
 
 <MudLayout>
-    <MudAppBar Color="Color.Surface" Fixed="true" Elevation="1">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h6" Class="ml-3">Clínica</MudText>
+    <MudAppBar Color="Color.Surface" Fixed="true" Elevation="2" Class="px-4">
+        @* Botón de Menú para el Drawer *@
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Primary" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        
+        @* Identidad de la Clínica *@
+        <MudIcon Icon="@Icons.Material.Filled.HealthAndSafety" Color="Color.Primary" Class="ml-3 mr-2" />
+        <MudText Typo="Typo.h6" Color="Color.Primary" Class="fw-bold d-none d-sm-inline">
+            Clínica Santa Mónica
+        </MudText>
+        
         <MudSpacer />
         
-        <MudIconButton 
-            Icon="@(_isDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)" 
-            Color="Color.Inherit" 
-            OnClick="@(() => _isDarkMode = !_isDarkMode)" 
-            Class="mr-2" />
+        @* Switch de Modo Oscuro con Tooltip para UX *@
+        <MudTooltip Text="@(_isDarkMode ? "Cambiar a Modo Claro" : "Cambiar a Modo Oscuro")">
+            <MudIconButton 
+                Icon="@(_isDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)" 
+                Color="Color.Inherit" 
+                OnClick="@(() => _isDarkMode = !_isDarkMode)" 
+                Class="mr-2" />
+        </MudTooltip>
 
-        <MudButton Variant="Variant.Outlined" Color="Color.Primary" EndIcon="@Icons.Material.Filled.Login">
-            Acceso Pacientes
+        @* Botón de Acceso al Sistema SIGEC *@
+        <MudButton Variant="Variant.Filled" 
+                   Color="Color.Primary" 
+                   Size="Size.Medium"
+                   EndIcon="@Icons.Material.Filled.Login" 
+                   Class="rounded-pill px-6 d-none d-sm-flex">
+            Portal SIGEC
         </MudButton>
+        
+        @* Icono de acceso para móviles *@
+        <MudIconButton Icon="@Icons.Material.Filled.Login" Color="Color.Primary" Class="d-flex d-sm-none" />
     </MudAppBar>
 
-    <MudDrawer @bind-Open="_drawerOpen" Elevation="2" ClipMode="DrawerClipMode.Always">
+    @* Drawer Lateral con el NavMenu *@
+    <MudDrawer @bind-Open="_drawerOpen" Elevation="4" ClipMode="DrawerClipMode.Always" Variant="@DrawerVariant.Responsive">
+        <MudDrawerHeader Class="pa-4">
+            <MudText Typo="Typo.subtitle1" Color="Color.Primary" Class="fw-bold">Clínica Santa Monica</MudText>
+        </MudDrawerHeader>
         <NavMenu />
     </MudDrawer>
 
     <MudMainContent>
-        <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="pt-8 pb-8">
+        @* El contenedor principal donde se renderiza el Home.razor *@
+        <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
             @Body
         </MudContainer>
     </MudMainContent>
@@ -35,7 +58,7 @@
 
 @code {
     bool _drawerOpen = true;
-    bool _isDarkMode; // Variable que controla el modo
+    bool _isDarkMode; 
     
     private ClinicaTheme _miTemaCustom = new();
 
@@ -44,9 +67,9 @@
         _drawerOpen = !_drawerOpen;
     }
 
-    // la web inicie en el modo que tenga el usuario en su PC
     protected override void OnInitialized()
     {
-        // Si quieres que inicie siempre en claro, pon _isDarkMode = false;
+        // El modo oscuro se vincula automáticamente con MudThemeProvider.
+        // Aquí podrías agregar lógica para persistir la preferencia en LocalStorage en el futuro.
     }
 }

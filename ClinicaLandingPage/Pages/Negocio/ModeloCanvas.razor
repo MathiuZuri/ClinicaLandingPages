@@ -1,56 +1,83 @@
-﻿<MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">Modelo de Negocio (Canvas)</MudText>
+﻿@using MudBlazor
+
+<MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-6 fw-bold">Modelo de Negocio (Business Model Canvas)</MudText>
 <MudText Typo="Typo.body1" Align="Align.Center" Class="mb-8 text-muted">
-    Estructura estratégica para la generación de valor y sostenibilidad de la clínica.
+    Análisis estratégico de la operación clínica y la sostenibilidad tecnológica del sistema SIGEC.
 </MudText>
 
-<MudExpansionPanels MultiExpansion="false" Elevation="2">
+<MudExpansionPanels MultiExpansion="false" Elevation="4" Class="rounded-lg overflow-hidden">
     
-    <MudExpansionPanel Text="1. Segmento de Clientes" Icon="@Icons.Material.Filled.Groups">
-        <MudText>
-            Familias y profesionales de la zona urbana y periurbana de Juliaca que buscan atención médica privada, rápida y con altos estándares de calidad y tecnología.
+    <MudExpansionPanel Text="4. Segmento de Clientes" Icon="@Icons.Material.Filled.Groups">
+        <MudText Typo="Typo.body2" Class="mb-2">
+            <strong>Mercado Objetivo:</strong> Mujeres en etapa gestacional y pacientes de ginecología en la ciudad de Juliaca y zonas aledañas de la región Puno.
+        </MudText>
+        <MudText Typo="Typo.body2">
+            <strong>Perfil:</strong> Usuarios que buscan una atención privada diferenciada, priorizando la rapidez en la gestión de citas y la seguridad de su información clínica (Historia Clínica Digital).
         </MudText>
     </MudExpansionPanel>
 
-    <MudExpansionPanel Text="2. Propuesta de Valor" Icon="@Icons.Material.Filled.Star">
-        <MudText>
-            Ofrecemos un servicio médico integral que reduce los tiempos de espera mediante la digitalización de citas (S.I.G.E.P.P / WhatsApp), combinando tecnología de punta con un trato humano y personalizado.
+    <MudExpansionPanel Text="5. Propuesta de Valor" Icon="@Icons.Material.Filled.Star">
+        <MudText Typo="Typo.body2">
+            Atención obstétrica integral soportada por el sistema <strong>SIGEC</strong>, que elimina el error humano y las esperas del registro manual. Ofrecemos:
+        </MudText>
+        <ul class="mt-2">
+            <li><MudText Typo="Typo.body2">Historias Clínicas únicas e inalterables (Formato [Año]-[Correlativo]-[DNI]).</MudText></li>
+            <li><MudText Typo="Typo.body2">Acceso rápido a la evolución clínica mediante arquitectura hexagonal optimizada para bajo rendimiento de red.</MudText></li>
+            <li><MudText Typo="Typo.body2">Calidez humana respaldada por precisión tecnológica.</MudText></li>
+        </ul>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel Text="6. Canales de Distribución" Icon="@Icons.Material.Filled.AltRoute">
+        <MudText Typo="Typo.body2">
+            Nuestros puntos de contacto optimizados para el entorno de Juliaca:
+        </MudText>
+        <ul class="mt-2">
+            <li><MudText Typo="Typo.body2"><strong>Físico:</strong> Sede central para atención y procedimientos obstétricos.</MudText></li>
+            <li><MudText Typo="Typo.body2"><strong>Digital:</strong> Aplicación Web Blazor WebAssembly para reservas y visualización de datos.</MudText></li>
+            <li><MudText Typo="Typo.body2"><strong>Comunicación:</strong> Sistema automatizado de notificaciones vía WhatsApp Business API.</MudText></li>
+        </ul>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel Text="7. Relación con el Cliente" Icon="@Icons.Material.Filled.Handshake">
+        <MudText Typo="Typo.body2">
+            Enfoque en la <strong>fidelización y tranquilidad de la gestante</strong> mediante asistencia personalizada post-consulta, recordatorios automáticos de controles prenatales y un sistema de admisión transparente que bloquea la duplicidad de datos sensibles.
         </MudText>
     </MudExpansionPanel>
 
-    <MudExpansionPanel Text="3. Canales" Icon="@Icons.Material.Filled.AltRoute">
-        <MudText>
-            <ul>
-                <li>Plataforma web para reservas (Nuestra web y App).</li>
-                <li>Atención presencial en sede física.</li>
-                <li>Comunicaciones y recordatorios vía WhatsApp Business API.</li>
-                <li>Redes Sociales (Facebook, Instagram).</li>
-            </ul>
+    <MudExpansionPanel Text="8. Flujo de Ingresos" Icon="@Icons.Material.Filled.AttachMoney">
+        <MudText Typo="Typo.body2">
+            Generación de recursos a través de:
+        </MudText>
+        <ul class="mt-2">
+            <li><MudText Typo="Typo.body2">Consultas especializadas en obstetricia y ginecología.</MudText></li>
+            <li><MudText Typo="Typo.body2">Servicios de diagnóstico por imágenes y ecografías.</MudText></li>
+            <li><MudText Typo="Typo.body2">Procedimientos quirúrgicos menores y atención de partos.</MudText></li>
+            <li><MudText Typo="Typo.body2">Venta de paquetes de control prenatal integral.</MudText></li>
+        </ul>
+    </MudExpansionPanel>
+
+    <MudExpansionPanel Text="9. Recursos Clave" Icon="@Icons.Material.Filled.Memory">
+        <MudText Typo="Typo.body2">
+            <strong>Infraestructura Médica:</strong> Personal especializado y consultorios equipados.<br/>
+            <strong>Infraestructura Tecnológica:</strong> Servidores PostgreSQL, arquitectura robusta en .NET 9 y el código fuente del sistema SIGEC como activo intelectual principal.
         </MudText>
     </MudExpansionPanel>
 
-    <MudExpansionPanel Text="4. Relación con Clientes" Icon="@Icons.Material.Filled.Handshake">
-        <MudText>
-            Asistencia personal y automatizada. Nos enfocamos en la retención mediante programas de seguimiento post-consulta y recordatorios de chequeos preventivos.
+    <MudExpansionPanel Text="10. Actividades Clave" Icon="@Icons.Material.Filled.TaskAlt">
+        <MudText Typo="Typo.body2">
+            Gestión clínica diaria, mantenimiento y actualización de los protocolos de seguridad de datos en la arquitectura hexagonal, capacitación continua del personal de recepción en el uso de herramientas digitales y campañas de salud preventiva.
         </MudText>
     </MudExpansionPanel>
 
-    <MudExpansionPanel Text="5. Flujos de Ingresos" Icon="@Icons.Material.Filled.AttachMoney">
-        <MudText>
-            Ingresos directos por consultas médicas, procedimientos quirúrgicos menores, exámenes de laboratorio, diagnóstico por imágenes y convenios con EPS (Entidades Prestadoras de Salud).
+    <MudExpansionPanel Text="11. Socios Clave" Icon="@Icons.Material.Filled.Handshake">
+        <MudText Typo="Typo.body2">
+            Proveedores de insumos médicos certificados, laboratorios de análisis clínicos externos, proveedores de servicios de nube (Azure/Cloudflare) y entidades reguladoras de salud en Perú.
         </MudText>
     </MudExpansionPanel>
 
-    <MudExpansionPanel Text="6. Recursos y Actividades Clave" Icon="@Icons.Material.Filled.Build">
-        <MudText>
-            <strong>Recursos:</strong> Personal médico especializado, infraestructura tecnológica (servidores, equipos de imagenología), instalaciones modernas.<br/>
-            <strong>Actividades:</strong> Atención clínica continua, mantenimiento de equipos médicos, gestión del software hospitalario y marketing digital.
-        </MudText>
-    </MudExpansionPanel>
-
-    <MudExpansionPanel Text="7. Red de Aliados y Estructura de Costos" Icon="@Icons.Material.Filled.AccountTree">
-        <MudText>
-            <strong>Aliados:</strong> Proveedores de insumos médicos, laboratorios externos especializados, empresas de tecnología de la información (hosting, MTC, etc.).<br/>
-            <strong>Costos:</strong> Planilla del personal médico y administrativo, alquiler/mantenimiento del local, licencias de software, y compra de material médico.
+    <MudExpansionPanel Text="12. Estructura de Costos" Icon="@Icons.Material.Filled.AccountTree">
+        <MudText Typo="Typo.body2">
+            Inversión en planilla médica y administrativa, costos de mantenimiento de la plataforma digital (Hosting/Base de Datos), suministros hospitalarios especializados y gastos operativos de la sede física en Juliaca.
         </MudText>
     </MudExpansionPanel>
 

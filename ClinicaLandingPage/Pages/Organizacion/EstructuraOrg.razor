@@ -1,19 +1,24 @@
-﻿
-<MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">Estructura Organizacional</MudText>
+﻿@using MudBlazor
+
+<MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-8 fw-bold">Estructura Organizacional</MudText>
 
 <MudGrid>
     <MudItem xs="12" md="5">
-        <MudPaper Elevation="4" Class="pa-4">
-            <MudText Typo="Typo.h6" Class="mb-4">Organigrama Institucional</MudText>
-            <MudTreeView T="string">
-                <MudTreeViewItem Value="@("Dirección General")">
-                    <MudTreeViewItem Value="@("Área Médica")">
-                        <MudTreeViewItem Value="@("Especialidades")" />
-                        <MudTreeViewItem Value="@("Enfermería")" />
+        <MudPaper Elevation="4" Class="pa-6 rounded-lg border-l-4" Style="border-left-color: var(--mud-palette-primary); height: 100%;">
+            <MudText Typo="Typo.h6" Class="mb-4">
+                <MudIcon Icon="@Icons.Material.Filled.AccountTree" Class="mr-2" />
+                Organigrama Funcional
+            </MudText>
+            <MudTreeView T="string" Hover="true">
+                <MudTreeViewItem Value="@("Gerencia General")" Expanded="true">
+                    <MudTreeViewItem Value="@("Dirección Médica")" Expanded="true">
+                        <MudTreeViewItem Value="@("Unidad de Ginecología y Obstetricia")" />
+                        <MudTreeViewItem Value="@("Servicio de Monitoreo Fetal")" />
+                        <MudTreeViewItem Value="@("Área de Psicoprofilaxis")" />
                     </MudTreeViewItem>
-                    <MudTreeViewItem Value="@("Área Administrativa")">
-                        <MudTreeViewItem Value="@("Recursos Humanos")" />
-                        <MudTreeViewItem Value="@("Finanzas")" />
+                    <MudTreeViewItem Value="@("Dirección Administrativa")" Expanded="true">
+                        <MudTreeViewItem Value="@("Admisión y Gestión SIGEC")" />
+                        <MudTreeViewItem Value="@("Soporte Técnico e Infraestructura")" />
                     </MudTreeViewItem>
                 </MudTreeViewItem>
             </MudTreeView>
@@ -21,35 +26,43 @@
     </MudItem>
 
     <MudItem xs="12" md="7">
-        <MudExpansionPanels MultiExpansion="true">
-            <MudExpansionPanel Text="Área Médica">
-                Contamos con tecnología de última generación para diagnósticos precisos y tratamientos efectivos. 
-                Incluye las unidades de cuidados intensivos, quirófanos y consulta externa.
+        <MudExpansionPanels MultiExpansion="true" Elevation="2" Class="rounded-lg overflow-hidden">
+            <MudExpansionPanel Text="Área Médica (Ginecología y Obstetricia)">
+                <MudText Typo="Typo.body2">
+                    Núcleo operativo encargado de la atención prenatal, controles ginecológicos y partos. Se apoya en el sistema <strong>SIGEC</strong> para el seguimiento en tiempo real de la evolución de las gestantes y la emisión de alertas preventivas.
+                </MudText>
             </MudExpansionPanel>
-            <MudExpansionPanel Text="Área Administrativa">
-                Encargada de la gestión de citas, atención al cliente y soporte logístico para el funcionamiento óptimo.
+            <MudExpansionPanel Text="Área de Admisión y Transformación Digital">
+                <MudText Typo="Typo.body2">
+                    Encargada del primer contacto con la paciente. Gestiona el registro único mediante DNI y la asignación automática de Historias Clínicas. Es el área responsable de la integridad de los datos demográficos y la agenda de citas digital.
+                </MudText>
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="Área de Soporte e Infraestructura">
+                <MudText Typo="Typo.body2">
+                    Garantiza la disponibilidad de la red y la persistencia de datos en PostgreSQL, asegurando que la arquitectura hexagonal del sistema permita una atención fluida incluso en condiciones de conectividad intermitente.
+                </MudText>
             </MudExpansionPanel>
         </MudExpansionPanels>
     </MudItem>
 
     <MudItem xs="12">
-        <MudText Typo="Typo.h5" Class="mt-8 mb-4">Nuestro Personal Clave</MudText>
+        <MudText Typo="Typo.h5" Align="Align.Center" Color="Color.Primary" Class="mt-10 mb-6 fw-bold">Nuestro Staff Profesional</MudText>
         <MudGrid>
             @foreach (var persona in _staff)
             {
                 <MudItem xs="12" sm="6" md="4">
-                    <MudCard Elevation="2">
+                    <MudCard Elevation="3" Class="h-100 rounded-lg border-t-4" Style="@($"border-top-color: {persona.ColorBorde};")">
                         <MudCardHeader>
                             <CardHeaderAvatar>
-                                <MudAvatar Color="Color.Secondary">@persona.Nombre[0]</MudAvatar>
+                                <MudAvatar Color="persona.AvatarColor" Variant="Variant.Filled">@persona.Nombre[0]</MudAvatar>
                             </CardHeaderAvatar>
                             <CardHeaderContent>
-                                <MudText Typo="Typo.body1">@persona.Nombre</MudText>
-                                <MudText Typo="Typo.body2">@persona.Cargo</MudText>
+                                <MudText Typo="Typo.subtitle1" Class="fw-bold">@persona.Nombre</MudText>
+                                <MudText Typo="Typo.caption" Color="Color.Secondary">@persona.Cargo</MudText>
                             </CardHeaderContent>
                         </MudCardHeader>
                         <MudCardContent>
-                            <MudText Typo="Typo.body2">@persona.Descripcion</MudText>
+                            <MudText Typo="Typo.body2" Class="text-muted">@persona.Descripcion</MudText>
                         </MudCardContent>
                     </MudCard>
                 </MudItem>
@@ -59,16 +72,36 @@
 </MudGrid>
 
 @code {
-    // Modelo simple para el staff (puntos 18 y 23)
     private List<StaffMember> _staff = new()
     {
-        new StaffMember { Nombre = "Dr. Roberto Gómez", Cargo = "Director Médico", Descripcion = "Especialista en gestión hospitalaria con 20 años de experiencia." },
-        new StaffMember { Nombre = "Lic. Ana Martínez", Cargo = "Jefe de Enfermería", Descripcion = "Líder en protocolos de atención al paciente y bioseguridad." }
+        new StaffMember { 
+            Nombre = "Dr. Marco Antonio Condori", 
+            Cargo = "Director Médico / Ginecólogo-Obstetra", 
+            Descripcion = "Especialista en embarazos de alto riesgo con amplia trayectoria en la región Puno. Lidera los protocolos médicos integrados a SIGEC.",
+            AvatarColor = Color.Primary,
+            ColorBorde = "var(--mud-palette-primary)"
+        },
+        new StaffMember { 
+            Nombre = "Lic. Elena Mamani", 
+            Cargo = "Jefe de Obstetricia", 
+            Descripcion = "Experta en psicoprofilaxis y atención humanizada del parto. Coordina el seguimiento prenatal digital y la educación a la madre.",
+            AvatarColor = Color.Secondary,
+            ColorBorde = "var(--mud-palette-secondary)"
+        },
+        new StaffMember { 
+            Nombre = "Ing. Sistemas (Gestión SIGEC)", 
+            Cargo = "Coordinador de Admisión Digital", 
+            Descripcion = "Responsable de la integridad de las Historias Clínicas y la operatividad técnica de la plataforma en la sede Juliaca.",
+            AvatarColor = Color.Info,
+            ColorBorde = "var(--mud-palette-info)"
+        }
     };
 
     public class StaffMember {
-        public string Nombre { get; set; }
-        public string Cargo { get; set; }
-        public string Descripcion { get; set; }
+        public string Nombre { get; set; } = string.Empty;
+        public string Cargo { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+        public Color AvatarColor { get; set; }
+        public string ColorBorde { get; set; } = "transparent";
     }
 }

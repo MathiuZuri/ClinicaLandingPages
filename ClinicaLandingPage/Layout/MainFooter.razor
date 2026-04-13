@@ -1,30 +1,55 @@
-﻿<footer class="mt-16 py-8" style="background-color: var(--mud-palette-surface); border-top: 1px solid var(--mud-palette-divider);">
+﻿<footer class="mt-16 py-10" style="background-color: var(--mud-palette-surface); border-top: 1px solid var(--mud-palette-divider);">
     <MudContainer MaxWidth="MaxWidth.Large">
         <MudGrid>
             <MudItem xs="12" md="4">
-                <MudText Typo="Typo.h6" Color="Color.Primary">Clínica</MudText>
-                <MudText Typo="Typo.body2" Class="mt-2">
-                    Comprometidos con la salud y el bienestar de la comunidad de Juliaca, utilizando tecnología de vanguardia y atención humana.
+                <MudText Typo="Typo.h6" Color="Color.Primary" Class="fw-bold mb-2">Clínica Santa Mónica</MudText>
+                <MudText Typo="Typo.body2" Class="text-muted">
+                    Líderes en salud materno-obstétrica en la ciudad de Juliaca. 
+                    Fusionamos la calidez humana con la precisión de nuestra arquitectura digital <strong>SIGEC</strong> para el bienestar de la madre y el niño.
                 </MudText>
-            </MudItem>
-            <MudItem xs="12" md="4">
-                <MudText Typo="Typo.h6" Class="mb-2">Enlaces Rápidos</MudText>
-                <MudLink Href="#identidad" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-1">Identidad</MudLink>
-                <MudLink Href="#negocio" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-1">Negocio</MudLink>
-                <MudLink Href="#servicios" Color="Color.Inherit" Underline="Underline.None" Class="d-block">Servicios</MudLink>
-            </MudItem>
-            <MudItem xs="12" md="4">
-                <MudText Typo="Typo.h6" Class="mb-2">Redes Sociales</MudText>
-                <div class="d-flex gap-4">
-                    <MudIconButton Icon="@Icons.Custom.Brands.Facebook" Color="Color.Primary" />
-                    <MudIconButton Icon="@Icons.Custom.Brands.Instagram" Color="Color.Primary" />
-                    <MudIconButton Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Primary" />
+                <div class="mt-4">
+                    <MudChip T="string" Color="Color.Info" Variant="Variant.Text" Size="Size.Small" Icon="@Icons.Material.Filled.Terminal">SIGEC v1.0 - .NET 9</MudChip>
                 </div>
             </MudItem>
+
+            <MudItem xs="12" md="4" Class="px-md-8">
+                <MudText Typo="Typo.h6" Class="mb-4">Mapa del Sitio</MudText>
+                <MudGrid Spacing="1">
+                    <MudItem xs="6">
+                        <MudLink Href="#identidad" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-2">Nosotros</MudLink>
+                        <MudLink Href="#negocio" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-2">Estrategia</MudLink>
+                        <MudLink Href="#organizacion" Color="Color.Inherit" Underline="Underline.None" Class="d-block">Staff</MudLink>
+                    </MudItem>
+                    <MudItem xs="6">
+                        <MudLink Href="#servicios" Color="Color.Inherit" Underline="Underline.None" Class="d-block mb-2">Servicios</MudLink>
+                        <MudLink Href="#contacto" Color="Color.Inherit" Underline="Underline.None" Class="d-block">Contacto</MudLink>
+                    </MudItem>
+                </MudGrid>
+            </MudItem>
+
+            <MudItem xs="12" md="4">
+                <MudText Typo="Typo.h6" Class="mb-4">Conéctate con Nosotros</MudText>
+                <div class="d-flex gap-4 mb-4">
+                    <MudIconButton Icon="@Icons.Custom.Brands.Facebook" Color="Color.Primary" Variant="Variant.Filled" Size="Size.Small" />
+                    <MudIconButton Icon="@Icons.Custom.Brands.Instagram" Color="Color.Secondary" Variant="Variant.Filled" Size="Size.Small" />
+                    <MudIconButton Icon="@Icons.Custom.Brands.WhatsApp" Color="Color.Success" Variant="Variant.Filled" Size="Size.Small" />
+                </div>
+                <MudText Typo="Typo.caption" Class="d-block text-muted">
+                    <MudIcon Icon="@Icons.Material.Filled.Place" Size="Size.Small" Class="mr-1" />
+                    Juliaca, Puno - Perú
+                </MudText>
+            </MudItem>
         </MudGrid>
-        <MudDivider Class="my-6" />
-        <MudText Typo="Typo.body2" Align="Align.Center" Color="Color.Secondary">
-            &copy; @DateTime.Now.Year Clínica - Todos los derechos reservados.
-        </MudText>
+
+        <MudDivider Class="my-8" />
+
+        <div class="d-flex flex-column flex-md-row justify-space-between align-center">
+            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                &copy; 2026 Clínica Obstétrica Santa Mónica - Todos los derechos reservados.
+            </MudText>
+            <MudText Typo="Typo.caption" Color="Color.Info" Class="mt-2 mt-md-0">
+                Desarrollado con <strong>Blazor WebAssembly</strong> & <strong>Arquitectura Hexagonal</strong>
+            </MudText>
+        </div>
     </MudContainer>
 </footer>

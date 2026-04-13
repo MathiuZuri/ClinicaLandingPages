@@ -1,36 +1,60 @@
 ﻿
-<MudGrid Class="mt-8">
+<MudGrid Class="mt-8 mb-12">
     <MudItem xs="12">
-        <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">Nuestros Valores y Filosofía</MudText>
+        <MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary" Class="mb-4 fw-bold">Nuestra Esencia</MudText>
+        <MudText Typo="Typo.body1" Align="Align.Center" Class="mb-10 text-muted">
+            Combinamos la calidez de la atención personalizada con la precisión de la ingeniería moderna.
+        </MudText>
     </MudItem>
     
     <MudItem xs="12" md="4">
-        <MudCard Elevation="2" Class="height-full">
+        <MudCard Elevation="3" Class="pa-4 rounded-lg h-100 border-t-4" Style="border-top-color: var(--mud-palette-error);">
             <MudCardContent>
-                <MudIcon Icon="@Icons.Material.Filled.Favorite" Color="Color.Error" Size="Size.Large" />
-                <MudText Typo="Typo.h6">Ética y Humanismo</MudText>
-                <MudText Typo="Typo.body2">Nuestra filosofía se basa en tratar a cada paciente como a un miembro de nuestra familia.</MudText>
+                <div class="d-flex justify-center mb-4">
+                    <MudIcon Icon="@Icons.Material.Filled.Favorite" Color="Color.Error" Style="font-size: 3rem;" />
+                </div>
+                <MudText Typo="Typo.h6" Align="Align.Center" Class="mb-2">Ética y Humanismo</MudText>
+                <MudText Typo="Typo.body2" Align="Align.Center">
+                    En la Clínica Santa Mónica, cada gestante es nuestra prioridad. Tratamos la vida desde su inicio con el respeto, la paciencia y la dignidad que una familia merece, asegurando un entorno de confianza absoluta.
+                </MudText>
             </MudCardContent>
         </MudCard>
     </MudItem>
 
     <MudItem xs="12" md="4">
-        <MudCard Elevation="2">
+        <MudCard Elevation="3" Class="pa-4 rounded-lg h-100 border-t-4" Style="border-top-color: var(--mud-palette-primary);">
             <MudCardContent>
-                <MudIcon Icon="@Icons.Material.Filled.VerifiedUser" Color="Color.Success" Size="Size.Large" />
-                <MudText Typo="Typo.h6">Integridad</MudText>
-                <MudText Typo="Typo.body2">Transparencia total en nuestros procesos médicos y administrativos.</MudText>
+                <div class="d-flex justify-center mb-4">
+                    <MudIcon Icon="@Icons.Material.Filled.Security" Color="Color.Primary" Style="font-size: 3rem;" />
+                </div>
+                <MudText Typo="Typo.h6" Align="Align.Center" Class="mb-2">Innovación y Seguridad</MudText>
+                <MudText Typo="Typo.body2" Align="Align.Center">
+                    A través de nuestro sistema <strong>SIGEC</strong>, garantizamos la integridad de los datos clínicos. Nuestra integridad se refleja en la transparencia de nuestros procesos y la protección inquebrantable de la privacidad de nuestras pacientes.
+                </MudText>
             </MudCardContent>
         </MudCard>
     </MudItem>
 
     <MudItem xs="12" md="4">
-        <MudCard Elevation="2">
+        <MudCard Elevation="3" Class="pa-4 rounded-lg h-100 border-t-4" Style="border-top-color: var(--mud-palette-success);">
             <MudCardContent>
-                <MudIcon Icon="@Icons.Material.Filled.Public" Color="Color.Info" Size="Size.Large" />
-                <MudText Typo="Typo.h6">Aporte al País</MudText>
-                <MudText Typo="Typo.body2">Contribuimos al desarrollo nacional mejorando los estándares de salud pública en Perú.</MudText>
+                <div class="d-flex justify-center mb-4">
+                    <MudIcon Icon="@Icons.Material.Filled.Public" Color="Color.Success" Style="font-size: 3rem;" />
+                </div>
+                <MudText Typo="Typo.h6" Align="Align.Center" Class="mb-2">Aporte al Desarrollo</MudText>
+                <MudText Typo="Typo.body2" Align="Align.Center">
+                    Contribuimos a elevar los estándares de salud pública en el Perú, demostrando que en Juliaca se puede liderar la medicina materno-infantil con tecnología de clase mundial y un impacto social positivo en nuestra comunidad.
+                </MudText>
             </MudCardContent>
         </MudCard>
+    </MudItem>
+
+    <MudItem xs="12" Class="mt-6">
+        <MudAlert Severity="Severity.Info" Variant="Variant.Outlined" Icon="@Icons.Material.Filled.Lightbulb" Class="rounded-lg pa-6">
+            <MudText Typo="Typo.h6" Class="mb-2">Nuestra Filosofía</MudText>
+            <MudText Typo="Typo.body1" Style="font-style: italic;">
+                "La medicina moderna exige precisión técnica, pero la obstetricia demanda corazón. Nuestra filosofía es utilizar la arquitectura de software más robusta para que el médico tenga más tiempo de mirar a los ojos a la madre y menos tiempo frente a un papel."
+            </MudText>
+        </MudAlert>
     </MudItem>
 </MudGrid>
